@@ -1,0 +1,216 @@
+<include file="Application/Admin/Common/header.html"/>
+<include file="Application/Admin/Common/left_menu.html"/>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Validform/jquery-1.6.2.min.js"></script>
+
+  <div class="content-box">
+      <!-- Start Content Box -->
+      <div class="content-box-header">
+        <h3>Content box</h3>
+        <ul class="content-box-tabs">
+            <li><a href="#tab1" >Table</a></li>
+            <!-- href must be unique and match the id of target div -->
+            <li><a href="#tab2" class="default-tab">Forms</a></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <!-- End .content-box-header -->
+      <div class="content-box-content">
+        <div class="tab-content default-tab" id="tab2">
+          <form action="__URL__/admin_add" method="post" class="demoform" id="myform">
+            <fieldset>
+            <!-- Set class to "column-left" or "column-right" on fieldsets to divide the form into columns -->
+            <p>
+              <label>管理员名称</label>
+              <input class="text-input small-input" type="text" id="username" name="username" />
+              <!-- Classes for input-notification: success, error, information, attention -->
+            <p>
+              <label>密码</label>
+              <input class="text-input medium-input datepicker" type="password" id="password"  name="password"  />
+            <p>
+              <label>确认密码</label>
+             <input class="text-input medium-input datepicker" type="password" id="password1" />
+            </p>
+               <p>
+              <label>邮箱</label>
+                <input class="text-input medium-input datepicker" type="text" id="email"  name="email" />
+             
+            </p>
+            <div class="level">
+                <label>选择权限</label>
+            <p>
+               <input class="module" type="checkbox" /> 管理员模块
+               <br/>
+               <input class="action" type="checkbox" name="level[]" value="1"/> 新增管理员
+               <input class="action" type="checkbox" name="level[]" value="2"/> 查看管理员
+               <input class="action" type="checkbox" name="level[]" value="3"/> 删除管理员
+            </p>
+            <p>
+               <input class="module" type="checkbox" /> 新闻模块
+               <br/>
+               <input class="action" type="checkbox" name="level[]" value="4"/> 新增新闻
+               <input class="action" type="checkbox" name="level[]" value="5"/> 查看新闻列表
+               <input class="action" type="checkbox" name="level[]" value="6"/> 修改新闻
+               <input class="action" type="checkbox" name="level[]" value="7"/> 删除新闻
+            </p>
+            <p>
+               <input class="module" type="checkbox" /> 产品模块
+               <br/>
+               <input class="action" type="checkbox" name="level[]" value="8"/> 新增产品
+               <input class="action" type="checkbox" name="level[]" value="9"/> 查看产品列表
+               <input class="action" type="checkbox" name="level[]" value="10"/> 修改产品
+               <input class="action" type="checkbox" name="level[]" value="11"/> 删除产品
+               <input class="action" type="checkbox" name="level[]" value="12"/> 新增产品分类
+               <input class="action" type="checkbox" name="level[]" value="13"/> 查看产品分类列表
+               <input class="action" type="checkbox" name="level[]" value="14"/> 修改产品分类
+               <input class="action" type="checkbox" name="level[]" value="15"/> 删除产品分类
+            </p>
+            <p>
+               <input class="module" type="checkbox" /> 单页面管理
+               <br/>
+               <input class="action" type="checkbox" name="level[]" value="16"/> 轮播图新增
+               <input class="action" type="checkbox" name="level[]" value="17"/> 查看轮播图列表
+               <input class="action" type="checkbox" name="level[]" value="18"/> 删除轮播图
+               <input class="action" type="checkbox" name="level[]" value="19"/> 查看品牌介绍
+               <input class="action" type="checkbox" name="level[]" value="20"/> 修改品牌介绍
+               <input class="action" type="checkbox" name="level[]" value="21"/> 查看联系我们
+               <input class="action" type="checkbox" name="level[]" value="22"/> 修改联系我们
+               <input class="action" type="checkbox" name="level[]" value="23"/> 查看留言
+               <input class="action" type="checkbox" name="level[]" value="24"/> 删除留言
+            </p>
+            <p>
+               <input class="module" type="checkbox" /> 会员中心
+               <br/>
+               <input class="action" type="checkbox" name="level[]" value="25"/> 查看会员
+               <input class="action" type="checkbox" name="level[]" value="26"/> 删除会员
+            </p>
+            <p>
+               <input class="module" type="checkbox" /> 订单中心
+               <br/>
+               <input class="action" type="checkbox" name="level[]" value="27"/> 查看订单
+               <input class="action" type="checkbox" name="level[]" value="28"/> 删除订单
+            </p>
+            <p><input type="checkbox" class="select_all" />全选</p>
+            </div>
+            <p>
+              <input class="button" type="submit" value="Submit" />
+            </p>
+            </fieldset>
+            <div class="clear"></div>
+            <!-- End .clear -->
+          </form>
+        </div>
+        <!-- End #tab2 -->
+      </div>
+      <!-- End .content-box-content -->
+    </div>
+    <!-- End .content-box -->
+<include file="Application/Admin/Common/footer.html"/>
+<script>
+$(".admin").addClass("current");
+    $(".admin_add").addClass("current");
+    var a=0;
+  var b=0;
+  var c=0;
+  $("#username").blur(function(){//验证姓名是否为空
+    if($("#username").val()==""){
+        alert("姓名不能为空");a=0;
+    }else{
+        var username=$("#username").val();
+        var url=$(".demoform").attr("action");
+        $.ajax({
+            type:"GET",
+            url:url,
+            data:"username="+username,
+            success:function(msg){
+                if(msg==1){
+                    alert("用户名已存在");a=0;
+                }else{
+                    a=1;
+                }
+            }
+
+        })
+    }
+  })
+
+  $("#password").blur(function(){//验证密码是否为空
+    if($("#password").val()==""){
+        alert("密码不能为空");
+    }
+  })
+
+  $("#password1").blur(function(){//验证密码是否正确
+    var password = $("#password").val();
+    var password1 = $("#password1").val();
+    if(password==password1){
+      b=1;
+    }else{
+      alert("两次密码不一样");b=0;
+    }
+  })
+
+  $("#email").blur(function(){//验证邮箱格式是否正确
+    if($("#email").val()==""){
+        alert("邮箱不能为空");c=0;
+    }else if(!$("#email").val().match(/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/)){
+        alert("邮箱格式不正确");c=0;
+    }else{
+        c=1;
+    }
+  })
+
+  $("#myform").submit(function(){
+    if(a+b+c!=3){
+        return false;
+    }
+  })
+
+  //点击全选
+$(".select_all").click(function(){
+    var status = $(this).is(":checked");  //获取当前复选框的状态
+    // is(":checked") 判断是否被选中 如果选中返回true  未被选中返回false
+   if(status){
+      $(".level p input[type='checkbox']").attr("checked",true);
+   }else{
+       $(".level p input[type='checkbox']").attr("checked",false);
+   }
+
+})
+
+//点击模块
+$(".module").click(function(){
+   var status =$(this).is(":checked");
+   if(status){ 
+      $(this).siblings().attr("checked",true); //设置当前的同辈被选中
+   }else{
+      $(this).siblings().attr("checked",false);//设置当前的同辈不被选中
+   }
+select_all()
+
+})
+
+//点击模块对应的方法
+$(".action").click(function(){
+    var status = $(this).is(":checked");
+    if(status){
+        $(this).siblings(".module").attr("checked",true);
+    }else{
+          //代表当前的同级元素最多只有被选中（该选中的只可能是模块） 设置模块不被选中
+        if($(this).siblings("input:checked").length<=1){
+             $(this).siblings(".module").attr("checked",false);
+        }
+    }
+
+  select_all()
+})
+
+function select_all(){
+    var checked_num = $(".level input:checked").length; //获取复选框被选中的个数
+    if(checked_num ==$(".level input").length){
+        $(".select_all").attr("checked",true);
+    }else{
+         $(".select_all").attr("checked",false);
+    }
+}
+	 
+</script>

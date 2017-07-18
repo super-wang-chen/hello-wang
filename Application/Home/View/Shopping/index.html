@@ -1,0 +1,153 @@
+<include file="Application/Home/Common/header.html"/>
+<title>我的购物车</title>
+<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Common/css/shop_cart.css">
+<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Common/css/jquery.mCustomScrollbar.css">
+	<!-- main开始 -->
+	<div class="main">
+		<div class="container">
+			<div class="shop-header">
+				<h2>我的购物车</h2>
+				<div class="shop-flow hidden-sm hidden-xs">
+					<i></i>
+					<ol>
+						<li class="cur">我的购物车</li>
+						<li>确认订单</li>
+						<li>支付订单</li>
+					</ol>
+				</div>	
+			</div>
+			<div class="shop-title">
+				<a href="javascript:;" class="cur">全部商品</a>
+			</div>
+			<div class="content">
+				<form action="__URL__/comfirm_order" method="post">
+					<div class="shop-cart-title row hidden-xs">
+						<div class="col-sm-2 col-md-2 col-lg-2">
+							<label>
+								<input type="checkbox" name="" >
+								<span>全选</span>
+							</label>
+						</div>
+						<div class="col-sm-2 col-md-3 col-lg-3 pro-info">商品信息</div>
+						<div class="hidden-sm col-md-2 col-lg-2">颜色分类</div>
+						<div class="col-sm-2 col-md-1 col-lg-1">单价（元）</div>
+						<div class="col-sm-2 col-md-2 col-lg-2">数量</div>
+						<div class="col-sm-2 col-md-1 col-lg-1">金额</div>
+						<div class="col-sm-2 col-md-1 col-lg-1">备注</div>
+					</div>
+					<ul class="shop-box hidden-xs" style="overflow: auto;">
+					<volist name='data' id='vo' >
+						<li class="shop-cart row">
+							<div class="col-sm-4 col-md-5 col-lg-5 select-box">
+								<label class="default"><input type="checkbox" name="check[]" value="<{$vo.id}>" >
+								<input  type="hidden"  name="id[]" value="<{$vo.id}>" /></label>
+								<a href="<{:U('Product/pro_details')}>?id=<{$vo.pro_id}>"><img src="__ROOT__/<{$vo.image}>" alt="" title="" style="width: 184px;height: 200px;"></a>
+								<a href="<{:U('Product/pro_details')}>?id=<{$vo.pro_id}>" class="info-text"><{$vo.pro_name}></a>
+							</div>
+							<div class="hidden-sm col-md-2 col-lg-2">
+								<div class="text">
+								<foreach name="vo.attr" item="voo" key="k">
+									<span><{$k}>：<{$voo}></span>
+								</foreach>
+								</div>	
+							</div>
+							<div class="col-sm-2 col-md-1 col-lg-1 subPrice">
+								<div class="text">
+									<span class="unitPrice">￥<{$vo.new_price}></span>
+								</div>
+							</div>
+							<div class="col-sm-2 col-md-2 col-lg-2">
+								<div class="text">
+									<div class="num">
+										<i class="sub"></i>
+										<input type="text" name="number[]" value="<{$vo.number}>">
+										<i class="add"></i>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-2 col-md-1 col-lg-1">
+								<div class="text">
+									<span class="subtotal">￥<{$vo.totle}></span>
+								</div>
+							</div>
+							<div class="col-sm-2 col-md-1 col-lg-1">
+								<div class="text">
+									<button type="button" class="collect" name="<{$vo.id}>">收藏</button>
+									<button type="button" class="delete" name="<{$vo.id}>">删除</button>
+								</div>
+							</div>
+						</li>
+					</volist>
+					</ul>
+					
+					<div class="shop-foot">
+						<p>已选商品 <span class="numTotal">0</span> 件</p>
+						<p>合计（含运费）￥<span class="totalPrice">0.00</span>元</p>
+						<button type="submit"><a>结算</a></button>
+					</div>	
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- main结束 -->
+
+<include file="Application/Home/Common/footer.html"/>
+<script src='__ROOT__/Application/Home/Common/js/jquery.mCustomScrollbar.concat.min.js'></script>
+<script src='__ROOT__/Application/Home/Common/js/jquery-1.6.2.min.js'></script>
+<script type="text/javascript" src='__ROOT__/Application/Home/Common/js/shop_cart.js'></script>
+<script type="text/javascript">
+$(".nav-pills li").eq(4).addClass("current");
+	$('.delete').click(function(){
+		if(confirm('是否删除')){
+			var id=$(this).attr("name");
+			var url="cart_del";
+			$.ajax({
+				url:url,
+				data:"id="+id,
+				success:function(e){
+				}
+			})
+			$(this).parents('.shop-cart').remove();
+			// 已选商品数量
+			var checkedLen = $('.shop-cart .select-box label input:checked').length;
+			var totalLen = $('.shop-cart label input').length;
+		
+			// 单个checkbox图标改变全选
+			if(checkedLen==totalLen){
+				$('.shop-cart-title label input').prop('checked',true);
+				$('.shop-cart-title label').css('background','url(images/checked_box.jpg) no-repeat');
+			}else{
+				$('.shop-cart-title label input').prop('checked',false);
+				$('.shop-cart-title label').css('background','url(images/check_box.jpg) no-repeat');
+			};
+			// 已选商品数量
+			countNum();
+			// 求总价
+			countPrice();
+			//滚动条
+			var len = $(".shop-cart").length;
+			if(len < 3){
+				$(".mCSB_scrollTools").css("display",'none');
+				$(".shop-box").css('height',len*212+(len-1)*30+'px');
+				$(".mCSB_container").css('top',0);
+			}	
+		}
+		return false;
+	})
+	$('.collect').click(function(){
+		if(confirm('是否收藏')){
+			var id=$(this).attr("name");
+			var url="cart_collect";
+			$.ajax({
+				url:url,
+				data:"id="+id,
+				success:function(e){
+					if(e==3){
+						alert("收藏成功");
+					}
+				}
+			})
+		}
+		return false;
+	})
+</script>

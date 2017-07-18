@@ -1,0 +1,27 @@
+<include file="Application/Home/Common/header.html"/>
+<title>品牌介绍</title>
+<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Common/css/about_us.css">
+
+	<!-- main开始 -->
+	<div class="main">
+		<div class="container">
+			<h2>品牌介绍</h2>
+			<h3>Brand introduction</h3>
+			<p>当前位置：<a href="<{:U('Index/index')}>">首页</a>><span>品牌介绍</span></p>
+			<div class="content">
+				<div class="row">
+					<div class="col-md-5 col-lg-5 con-image" style="background: rgba(0, 0, 0, 0) url('__ROOT__/<{$data['image']}>') no-repeat scroll 0 0;background-size:100% 100%;">
+					</div>
+					<div class="col-md-7 col-lg-7">
+						<p><{$data['content']|strip_tags}></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- main结束 -->
+
+<include file="Application/Home/Common/footer.html"/>
+<script type="text/javascript">
+	$(".nav-pills li").eq(1).addClass("current");
+</script>

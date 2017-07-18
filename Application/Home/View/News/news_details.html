@@ -1,0 +1,50 @@
+<include file="Application/Home/Common/header.html"/>
+<title>新闻中心</title>
+<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Common/css/news_details.css">
+<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Common/css/jquery.mCustomScrollbar.css">
+
+	<!-- main开始 -->
+	<div class="main">
+		<div class="container">
+			<p>当前位置：<a href="<{:U('Index/index')}>">首页</a>><a href="<{:U('News/index')}>?p=1">新闻中心</a>><span>新闻详情</span></p>
+			<div class="content">
+				<h2><{$news["title"]}></h2>
+				<span>时间：<{$news["create_time"]|date="Y年m月d日 H:m:s",###}></span>
+				<div class="article">
+					
+					<span class="left-image" style="background: rgba(0, 0, 0, 0) url('__ROOT__/<{$image[0]}>') no-repeat scroll 50% center;background-size:100% 100%" ></span>
+					<span class="right-image" style="background: rgba(0, 0, 0, 0) url('__ROOT__/<{$image[1]}>') no-repeat scroll 50% center;background-size:100% 100%"></span>
+					<p><{$news["content"]}></p>
+				</div>
+				<div class="link">
+				<if condition="$pre"> <a href="__URL__/news_details?id=<{$pre['id']}>">上一篇：<{$pre["title"]}></a>
+				<else /> <a href="javascript:;">上一篇：没有了</a>
+				</if>
+				<if condition="$next"> <a href="__URL__/news_details?id=<{$next['id']}>">下一篇：<{$next["title"]}></a>
+				<else /> <a href="javascript:;">下一篇：没有了</a>
+				</if>
+					
+					
+				</div>	
+			</div>
+		</div>
+	</div>
+	<!-- main结束 -->
+
+
+<include file="Application/Home/Common/footer.html"/>
+<script src="__ROOT__/Application/Home/Common/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="__ROOT__/Application/Home/Common/js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript">
+$(".nav-pills li").eq(3).addClass("current");
+$(function(){
+
+	$(window).load(function(){
+		$(".article").mCustomScrollbar({
+
+			// scrollInertia:150
+
+		});
+	});
+});
+</script>

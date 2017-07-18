@@ -1,0 +1,106 @@
+<include file="Application/Admin/Common/header.html"/>
+<include file="Application/Admin/Common/left_menu.html"/>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/uedit/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/uedit/ueditor.all.min.js"> </script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/uedit/lang/zh-cn/zh-cn.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Validform/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Validform/Validform_v5.3.2_min.js"></script>
+<div class="content-box">
+      <!-- Start Content Box -->
+      <div class="content-box-header">
+        <h3>Content box</h3>
+        <ul class="content-box-tabs">
+            <li><a href="#tab1" >Table</a></li>
+            <!-- href must be unique and match the id of target div -->
+            <li><a href="#tab2" class="default-tab">Forms</a></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <!-- End .content-box-header -->
+      <div class="content-box-content">
+        <div class="tab-content default-tab" id="tab2">
+          <form action="__URL__/news_add" method="post" enctype="multipart/form-data" class="demoform" >
+            <fieldset>
+           
+            <p>
+              <label>标题</label>
+              <input class="text-input medium-input datepicker" type="text" id="medium-input" name="title" nullmsg="标题不能为空！" datatype="*" />
+            </p>
+            <p>
+              <label>作者</label>
+              <input class="text-input small-input" type="text" id="small-input" name="author" nullmsg="作者不能为空！" datatype="*" />
+           </p>
+            
+            <p>
+              <label>新闻图片</label>
+              <input type="file" name="image[]" id="myfile" multiple="multiple" nullmsg="请添加新闻图片！" datatype="*" />
+              <ul class="images">
+              </ul>
+              <style>
+                 #main-content ul.images{ list-style:none; overflow:hidden; }
+                 #main-content ul.images li{width:100px; height: 100px; border:1px #666666 solid; margin-left:15px; float:left; padding:0; position: relative;} 
+                 #main-content ul.images li>img{width:100px; height: 100px;}
+                 
+              </style>
+            </p>
+            <p>
+              <label>内容</label>
+              <textarea id="editor" type="text/plain" name="content" style="height:300px;" nullmsg="内容不能为空！" datatype="*"></textarea>
+            </p>
+            <p>
+              <input class="button" type="submit" value="提交" />
+            </p>
+            </fieldset>
+            <div class="clear"></div>
+            <!-- End .clear -->
+          </form>
+        </div>
+        <!-- End #tab2 -->
+      </div>
+      <!-- End .content-box-content -->
+    </div>
+    <!-- End .content-box -->
+
+<include file="Application/Admin/Common/footer.html"/>
+<script type="text/javascript">
+   $(".demoform").Validform();
+    $(".news").addClass("current");
+    $(".news_add").addClass("current");
+    $("#myfile").change(function(){
+      //当上传新图片，实现images内容初始化，将之前上传的内容
+      $(".images").html("");
+       // console.log(this.files.length);
+       var j=0;//j表示图片对应的下标
+       for(var i=0;i<this.files.length;i++){
+        var file=this.files[i];
+        if (window.FileReader) {    
+            var reader = new FileReader();    
+            reader.readAsDataURL(file);    
+            //监听文件读取结束后事件    
+          reader.onloadend = function (e) {
+                var str="<li>";   //e.target.result就是最后的路径地址
+            str+="<img src='"+e.target.result+"'/>";
+            str+="</li>";
+                $(".images").append(str);
+               j++;
+            }  
+
+       }
+     }
+    })
+   
+    //实例化编辑器
+    //建议使用工厂方法getEditor创建和引用编辑器实例，如果在某个闭包下引用该编辑器，直接调用UE.getEditor('editor')就能拿到相关的实例
+    var ue = UE.getEditor('editor');
+
+
+    function isFocus(e){
+        alert(UE.getEditor('editor').isFocus());
+        UE.dom.domUtils.preventDefault(e)
+    }
+    function setblur(e){
+        UE.getEditor('editor').blur();
+        UE.dom.domUtils.preventDefault(e)
+    }
+ 
+</script>

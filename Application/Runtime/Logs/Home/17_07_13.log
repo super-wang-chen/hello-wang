@@ -1,0 +1,883 @@
+[ 2017-07-13T14:23:25+08:00 ] ::1 /qmss/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+SQL: SHOW COLUMNS FROM `tp_banner` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `tp_banner` ORDER BY create_time desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2017-07-13T14:23:30+08:00 ] ::1 /qmss/index.php/Home/Brand/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0472s ]
+SQL: SELECT * FROM `tp_brand` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\71c02c7fc19ac63fd395c35404938535.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2017-07-13T14:23:31+08:00 ] ::1 /qmss/index.php/Home/Product/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 1 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2017-07-13T14:23:33+08:00 ] ::1 /qmss/index.php/Home/News/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0492s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 20 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 96 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2017-07-13T14:23:33+08:00 ] ::1 /qmss/index.php/Home/Shopping/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+
+[ 2017-07-13T14:23:33+08:00 ] ::1 /qmss/index.php/Home/Members/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\2574a9564b5f0b89c8a068b81a9c05d5.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-07-13T14:23:34+08:00 ] ::1 /qmss/index.php/Home/Members/images/login_check.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+
+[ 2017-07-13T14:29:08+08:00 ] ::1 /qmss/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `tp_banner` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `tp_banner` ORDER BY create_time desc LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2017-07-13T14:29:10+08:00 ] ::1 /qmss/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `tp_banner` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `tp_banner` ORDER BY create_time desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 8   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2017-07-13T14:29:12+08:00 ] ::1 /qmss/index.php/Home/Brand/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `tp_brand` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\71c02c7fc19ac63fd395c35404938535.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-07-13T14:29:13+08:00 ] ::1 /qmss/index.php/Home/Product/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 1 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2017-07-13T14:29:15+08:00 ] ::1 /qmss/index.php/Home/News/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.1050s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 20 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 96 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2017-07-13T14:29:16+08:00 ] ::1 /qmss/index.php/Home/Shopping/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-07-13T14:29:16+08:00 ] ::1 /qmss/index.php/Home/Members/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\2574a9564b5f0b89c8a068b81a9c05d5.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-07-13T14:29:16+08:00 ] ::1 /qmss/index.php/Home/Members/images/login_check.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+
+[ 2017-07-13T14:29:18+08:00 ] ::1 /qmss/index.php/Home/News/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 20 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 96 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2017-07-13T14:29:21+08:00 ] ::1 /qmss/index.php/Home/News/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 2,2   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-07-13T14:29:25+08:00 ] ::1 /qmss/index.php/Home/News/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-07-13T14:29:27+08:00 ] ::1 /qmss/index.php/Home/News/news_details?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `tp_news` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `create_time` > 1499927101 ) ORDER BY create_time asc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `create_time` < 1499927101 ) ORDER BY create_time desc LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\633e89f1f3101f9a738eef68e0efe52c.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001332s ]
+
+[ 2017-07-13T14:29:33+08:00 ] ::1 /qmss/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `tp_banner` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `tp_banner` ORDER BY create_time desc LIMIT 3   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 8   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2017-07-13T14:38:23+08:00 ] ::1 /qmss/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `tp_banner` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_banner` ORDER BY create_time desc LIMIT 3   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2017-07-13T14:38:34+08:00 ] ::1 /qmss/index.php/Home/Brand/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0466s ]
+SQL: SELECT * FROM `tp_brand` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\71c02c7fc19ac63fd395c35404938535.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2017-07-13T14:38:37+08:00 ] ::1 /qmss/index.php/Home/Product/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 1 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2017-07-13T14:38:42+08:00 ] ::1 /qmss/index.php/Home/News/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 20 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 96 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2017-07-13T14:38:43+08:00 ] ::1 /qmss/index.php/Home/Shopping/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002469s ]
+
+[ 2017-07-13T14:38:43+08:00 ] ::1 /qmss/index.php/Home/Members/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\2574a9564b5f0b89c8a068b81a9c05d5.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2017-07-13T14:38:43+08:00 ] ::1 /qmss/index.php/Home/Members/images/login_check.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+
+[ 2017-07-13T14:38:45+08:00 ] ::1 /qmss/index.php/Home/Contact/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `tp_contact` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\9d0babcb361c76b4b54c521c429b1099.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2017-07-13T14:38:46+08:00 ] ::1 /qmss/index.php/Home/Contact/ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2017-07-13T14:38:47+08:00 ] ::1 /qmss/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `tp_banner` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `tp_banner` ORDER BY create_time desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 8   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2017-07-13T14:38:54+08:00 ] ::1 /qmss/index.php/Home/Product/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 1 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2017-07-13T14:38:57+08:00 ] ::1 /qmss/index.php/Home/Product/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 1 ORDER BY create_time desc LIMIT 3,3   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-13T14:39:00+08:00 ] ::1 /qmss/index.php/Home/Product/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 1 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-13T14:39:01+08:00 ] ::1 /qmss/index.php/Home/Product/index?cate=2&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 2 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 2 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-07-13T14:39:04+08:00 ] ::1 /qmss/index.php/Home/Product/index?cate=3&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 3 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 3 LIMIT 1   [ RunTime:0.0578s ]
+
+[ 2017-07-13T14:39:05+08:00 ] ::1 /qmss/index.php/Home/Product/index?cate=4&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 4 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 4 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-07-13T14:39:08+08:00 ] ::1 /qmss/index.php/Home/Product/index?cate=5&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 5 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 5 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:39:10+08:00 ] ::1 /qmss/index.php/Home/Product/index?cate=4&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 4 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 4 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-07-13T14:39:12+08:00 ] ::1 /qmss/index.php/Home/Product/index?cate=1&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 1 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-07-13T14:40:24+08:00 ] ::1 /qmss/index.php/Home/Product/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 1 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2017-07-13T14:40:27+08:00 ] ::1 /qmss/index.php/Home/Product/index?cate=2&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 2 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 2 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-07-13T14:40:28+08:00 ] ::1 /qmss/index.php/Home/Product/index?cate=3&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 3 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 3 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:40:30+08:00 ] ::1 /qmss/index.php/Home/Product/index?cate=4&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 4 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 4 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-07-13T14:40:32+08:00 ] ::1 /qmss/index.php/Home/Product/index?cate=5&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 5 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 5 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:40:33+08:00 ] ::1 /qmss/index.php/Home/Product/index?cate=1&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 1 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-13T14:41:10+08:00 ] ::1 /qmss/index.php/Home/Product/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 1 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2017-07-13T14:41:12+08:00 ] ::1 /qmss/index.php/Home/Product/index?cate=2&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0597s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 2 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 2 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-07-13T14:41:14+08:00 ] ::1 /qmss/index.php/Home/Product/index?cate=3&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 3 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 3 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-07-13T14:41:15+08:00 ] ::1 /qmss/index.php/Home/Product/index?cate=4&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 4 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 4 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-07-13T14:41:17+08:00 ] ::1 /qmss/index.php/Home/Product/index?cate=5&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE ( pid=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `tp_product` WHERE `cate` = 5 ORDER BY create_time desc LIMIT 0,3   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE `cate` = 5 LIMIT 1   [ RunTime:0.0003s ]
+

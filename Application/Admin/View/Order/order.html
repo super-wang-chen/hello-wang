@@ -1,0 +1,56 @@
+<include file="Application/Admin/Common/header.html"/>
+<include file="Application/Admin/Common/left_menu.html"/>
+<div class="content-box">
+      <!-- Start Content Box -->
+      <div class="content-box-header">
+        <h3>Content box</h3>
+        <ul class="content-box-tabs">
+            <li><a href="#tab1" class="default-tab">Table</a></li>
+            <!-- href must be unique and match the id of target div -->
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <!-- End .content-box-header -->
+      <div class="content-box-content">
+        <div class="tab-content default-tab" id="tab1">
+              <!-- This is the target div. id must match the href of this div's tab -->
+              <div class="notification attention png_bg"> 
+              <a href="#" class="close"><img src="resources/images/icons/cross_grey_small.png" title="Close this notification" alt="close" />
+              </a>
+              <div> This is a Content Box. You can put whatever you want in it. By the way, you can close this notification with the top-right cross. </div>
+          </div>
+          <table>
+            <div>
+         
+          <p><b>商品信息</b></p>
+          <p>名称：<span><{$order["pro_name"]}></span></p>
+          <p>数量：<span><{$order["number"]}></span></p>
+          <p>总价：<span>￥<{$order["price"]}></span></p>  
+               
+        </div>
+       
+        
+        <div>
+       
+          <p><b>配送信息</b></p>          
+          <p>收货人：<span><{$order["name"]}></span></p>
+          <p>收货地址：<span><{$order["address"]}></span></p>
+          <p>手机号码：<span><{$order["phone"]}></span></p>
+           
+        </div>
+       
+        
+      
+            <a href="__URL__/<{$state}>?p=<{$curpage}>">返回</a>
+          </table>
+        </div>
+        <!-- End #tab1 -->
+      </div>
+      <!-- End .content-box-content -->
+    </div>
+    <!-- End .content-box -->
+<include file="Application/Admin/Common/footer.html"/>
+<script type="text/javascript">
+  $(".order").addClass("current");
+    $(".send").addClass("current");
+</script>

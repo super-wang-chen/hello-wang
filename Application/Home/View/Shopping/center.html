@@ -1,0 +1,132 @@
+<include file="Application/Home/Common/header.html"/>
+<title>会员中心</title>
+<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Common/css/user.css">
+
+	<!-- main开始 -->
+	<div class="main">
+		<div class="container">
+			<p>当前位置：<a href="<{:U('Index/index')}>">首页</a>><span>会员中心</span></p>
+			<div class="content">
+				<div class="row">
+					<div class="col-sm-3 col-md-3 col-lg-3 hidden-xs">
+						<div class="order-subnav">
+							<h3>会员中心</h3>
+							<dl>
+								<dt><i class="order-user"></i>个人中心</dt>
+								<dd><a href="<{:U('Shopping/center')}>" class="cur">基本资料</a></dd>
+								<!-- <dd><a href="javascript:;">修改资料</a></dd> -->
+								<!-- <dd><a href="<{:U('Shopping/center')}>">我的收藏</a></dd> -->
+								<!-- <dd><a href="javascript:;">历史记录</a></dd> -->
+								
+								<dt><i class="order-form"></i>订单中心</dt>
+								<dd><a href="<{:U('Shopping/order_lists')}>?p=1">我的订单</a></dd>
+								<!-- <dd><a href="javascript:;">取消订单</a></dd>
+								<dd><a href="javascript:;">我的评价</a></dd> -->
+								<dd><a href="<{:U('Shopping/address')}>">收货地址</a></dd>
+								
+								<!-- <dt><i class="order-wallet"></i>我的钱包</dt>
+								<dd><a href="javascript:;">我的余额</a></dd>
+								<dd><a href="javascript:;">优惠券</a></dd>
+								<dd><a href="javascript:;">我的评价</a></dd>
+								<dd><a href="javascript:;">我的积分</a></dd>
+								
+								<dt><i class="order-safe"></i>安全中心</dt>
+								<dd><a href="javascript:;">修改密码</a></dd>
+								<dd><a href="javascript:;">绑定手机</a></dd>
+								<dd><a href="javascript:;">密保问题</a></dd> -->
+								
+							</dl>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 order-content">
+						<div class="user-top">
+							<div class="row user-header">
+								<div class="col-md-3 col-lg-3 user-left hidden-sm">
+									<img src="__ROOT__/Application/Home/Common/images/user_image01.png" alt='' title=''>
+								</div>
+								<div class="col-sm-12 col-md-9 col-lg-9 user-right">
+									<h3>您好！    <span>V<sub><{$user["vip"]}></sub></span>会员    <{$user["user"]}>，欢迎来到会员中心</h3>
+									<ul>
+										<li><a href='javascript:;'>待付款（0）</a></li>
+										<li><a href='javascript:;'>待发货（0）</a></li>
+										<li><a href='javascript:;'>待收货（0）</a></li>
+										<li><a href='javascript:;'>待评价（0）</a></li>
+									</ul>
+									<p><a href="javascript:;">我的积分（<{$user["integral"]}>）</a><a href="javascript:;">我的优惠券（<{$user["coupons"]}>）</a></p>
+									<p class="link"><a href="<{:U('Shopping/address')}>">管理收货地址</a></p>
+								</div>
+							</div>
+							<div class="user-footer hidden-xs">
+								<h4 class="hidden-md hidden-sm ">我的会员成长值</h4>
+								<table>
+									<tr>
+										<td>Vip1</td>
+										<td>Vip2</td>
+										<td>Vip3</td>
+										<td>Vip4</td>
+										<td>Vip5</td>
+										<td>Vip6</td>
+										<td>Vip7</td>
+										<td>Vip8</td>
+									</tr>
+									<tr>
+										<td>0</td>
+										<td>500</td>
+										<td>1000</td>
+										<td>1600</td>
+										<td>2200</td>
+										<td>3000</td>
+										<td>5000</td>
+										<td>7000</td>
+									</tr>
+								</table>
+								<div class="progress-line">
+									<div class="bg-line"></div>
+									<span style="width: <{$user['exp']}>%"></span>
+									<i></i>
+									<i class="line01"></i>
+									<i class="line02"></i>
+									<i class="line03"></i>
+									<i class="line04"></i>
+								</div>
+							</div>
+						</div>
+						<div class="user-bottom">
+							<h2>最近订单</h2>
+							<table class="hidden-xs">
+								<thead>
+									<tr>
+										<td>商品信息</td>
+										<td>金额</td>
+										<td>数量</td>
+										<td colspan="2">交易时间</td>
+										<td>状态</td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<p>订单编号：<{$order["order_num"]}></p>
+											<a href="<{:U('Product/pro_details')}>?id=<{$order['pro_id']}>"><img src="__ROOT__/<{$order['image']}>" alt="" title="" style="width: 147px;height: 160px;"></a>
+											<a href="<{:U('Product/pro_details')}>?id=<{$order['pro_id']}>"><{$order["pro_name"]}></a>
+										</td>
+										<td>￥<{$order["price"]}></td>
+										<td><{$order["number"]}></td>
+										<td colspan="2"><{$order["create_time"]|date="y-m-d",###}></td>
+										<td><{$order["state"]}></td>
+									</tr>
+								</tbody>
+							</table>
+							
+						</div>							
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- main结束 -->
+
+<include file="Application/Home/Common/footer.html"/>
+<script type="text/javascript">
+	$(".nav-pills li").eq(4).addClass("current");
+</script>

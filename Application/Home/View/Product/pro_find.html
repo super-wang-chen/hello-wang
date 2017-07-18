@@ -1,0 +1,78 @@
+<include file="Application/Home/Common/header.html"/>
+<title>产品中心</title>
+<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Common/css/product.css">
+
+	<div class="main">
+		<div class="container">
+			<h2>产品中心</h2>
+			<h3>Product center</h3>
+			<p>当前位置：<a href="<{:U('Index/index')}>">首页</a>><span>产品中心</span></p>
+			<div class="content">
+				
+
+				<!-- tab选项卡开始 -->
+				<div class="tab">
+					<ul class="cur row">
+						<volist name="data" id="voo" >
+						<li class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+							<div class="pro-link">
+								<a href="__URL__/pro_details?id=<{$voo.id}>">
+									<span class="pro-image" style="background: rgba(0, 0, 0, 0) url('__ROOT__/<{$voo.image}>') no-repeat scroll 0 0;display: block;height: 329px;background-size:100% 100%;margin: 0 auto; width: 300px;"></span>
+									<span class="info"><{$voo.pro_name}></span>
+									<span class="price">￥<{$voo.new_price}></span>
+								</a>
+								<a href="<{:U('Shopping/add_cart')}>?id=<{$voo.id}>" class="add-cart">加入购物车</a>
+							</div>
+						</li>
+						</volist>
+					</ul>
+				</div>
+				<!-- tab选项卡结束 -->
+				
+				<div aria-label="Page navigation" class='page'>
+				    <{$show}>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- main结束 -->
+
+<include file="Application/Home/Common/footer.html"/>
+<script type="text/javascript" src="__ROOT__/Application/Home/Common/js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript">
+	$(".nav-pills li").eq(2).addClass("current");
+$(function(){
+	
+    $(".page div a").live('click',function(){
+      //alert(1);
+      var url = $(this).attr('href');
+      $.ajax({
+        type:"GET",
+        url:url,
+        dataType:"json",
+        success:function(msg){
+          var show = msg.show;
+          var str = "";
+          for(var i=0;i<msg.lists.length;i++){
+          	str+='<li class="col-xs-12 col-sm-6 col-md-4 col-lg-4">';
+			str+='<div class="pro-link">';
+			str+='<a href="__URL__/pro_details?id='+msg.lists[i]["id"]+'">';
+			str+='<span class="pro-image" style="background: rgba(0, 0, 0, 0) ';
+			str+="url('__ROOT__/"+msg.lists[i]['image']+"') no-repeat scroll 0 0;display: block;";
+			str+='height: 329px;background-size:100% 100%;margin: 0 auto; width:' ;
+			str+='300px;"></span>';
+			str+='<span class="info">'+msg.lists[i]["pro_name"]+'</span>';
+			str+='<span class="price">￥'+msg.lists[i]["new_price"]+'</span>';
+			str+='</a>';
+			str+='<a href="shop_cart.html" class="add-cart">加入购物车</a>';
+			str+='</div>';
+			str+='</li>';
+          }
+          $(".tab ul").html(str);
+          $(".page").html(show);
+        }
+      })
+      return false;
+    })
+ })
+</script>

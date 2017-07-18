@@ -1,0 +1,112 @@
+<body>
+<div id="body-wrapper">
+  <!-- Wrapper for the radial gradient background -->
+  <div id="sidebar">
+    <div id="sidebar-wrapper">
+      <!-- Sidebar with logo and menu -->
+      <h1 id="sidebar-title"><a href="#">Simpla Admin</a></h1>
+      <!-- Logo (221px wide) -->
+      <a href="http://www.865171.cn"><img id="logo" src="__ROOT__/Application/Admin/Common/resources/images/logo.png" alt="Simpla Admin logo" /></a>
+      <!-- Sidebar Profile links -->
+      <div id="profile-links"> Hello, <a href="#" title="Edit your profile"><{$_SESSION["username"]}></a>
+        <br />
+        <a href="__APP__/Home" title="View the Site">前台</a> | <a href="<{:U('Index/loginout')}>" title="Sign Out">退出</a> </div>
+      <ul id="main-nav">
+        <li> <a href="#" class="nav-top-item admin">管理员模块 </a>
+          <ul>
+            <li><a href="<{:U('Admin/admin_add')}>" class="admin_add">添加管理员</a></li>
+            <li><a href="<{:U('Admin/index')}>?p=1" class="admin_lists">管理员列表</a></li>
+          </ul>
+        </li>    
+        <li> <a href="#" class="nav-top-item news">新闻模块 </a>
+          <ul>
+            <li><a href="<{:U('News/news_add')}>" class="news_add">添加新闻</a></li>
+            <li><a href="<{:U('News/index')}>?p=1" class="news_lists">新闻列表</a></li>
+          </ul>
+        </li>
+        <li> <a href="#" class="nav-top-item product"> 产品模块 </a>
+          <ul>
+            <li><a href="<{:U('Product/product_add')}>" class="product_add">添加产品</a></li>
+            <li><a href="<{:U('Product/product_lists')}>?p=1" class="product_lists">产品列表</a></li>
+            <li><a href="<{:U('Product/product_cate_add')}>" class="cate_add">添加产品分类</a></li>
+            <li><a href="<{:U('Product/product_cate_lists')}>" class="cate_lists">产品分类列表</a></li>
+          </ul>
+        </li>
+        <li> <a href="#" class="nav-top-item single"> 单页面管理 </a>
+          <ul>
+            <li><a href="<{:U('Single/banner_add')}>" class="banner_add">添加轮播图</a></li>
+            <li><a href="<{:U('Single/banner_lists')}>" class="banner">轮播图列表</a></li>
+            <li><a href="<{:U('Single/brand')}>" class="brand">品牌介绍</a></li>
+            <li><a href="<{:U('Single/contact')}>" class="contact" >联系我们</a></li>
+            <li><a href="<{:U('Single/message')}>?p=1" class="message">留言列表</a></li>
+          </ul>
+        </li>
+        <li> <a href="#" class="nav-top-item members"> 会员中心 </a>
+          <ul>
+            <li><a href="<{:U('Members/lists')}>?p=1" class="members">会员列表</a></li>
+          </ul>
+        </li>
+        <li> <a href="#" class="nav-top-item order"> 订单中心 </a>
+          <ul>
+            <li><a href="<{:U('Order/index')}>?p=1" class="send">待发货订单</a></li>
+            <li><a href="<{:U('Order/sended')}>?p=1" class="sended">已发货订单</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!-- End #main-nav -->
+      <div id="messages" style="display: none">
+        <!-- Messages are shown when a link with these attributes are clicked: href="#messages" rel="modal"  -->
+        <h3>3 Messages</h3>
+        <p> <strong>17th May 2009</strong> by Admin<br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. <small><a href="#" class="remove-link" title="Remove message">Remove</a></small> </p>
+        <p> <strong>2nd May 2009</strong> by Jane Doe<br />
+          Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est. <small><a href="#" class="remove-link" title="Remove message">Remove</a></small> </p>
+        <p> <strong>25th April 2009</strong> by Admin<br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. <small><a href="#" class="remove-link" title="Remove message">Remove</a></small> </p>
+        <form action="#" method="post">
+          <h4>New Message</h4>
+          <fieldset>
+          <textarea class="textarea" name="textfield" cols="79" rows="5"></textarea>
+          </fieldset>
+          <fieldset>
+          <select name="dropdown" class="small-input">
+            <option value="option1">Send to...</option>
+            <option value="option2">Everyone</option>
+            <option value="option3">Admin</option>
+            <option value="option4">Jane Doe</option>
+          </select>
+          <input class="button" type="submit" value="Send" />
+          </fieldset>
+        </form>
+      </div>
+      <!-- End #messages -->
+    </div>
+  </div>
+  <!-- End #sidebar -->
+  <div id="main-content">
+    <!-- Main Content Section with everything -->
+    <noscript>
+    <!-- Show a notification if the user has disabled javascript -->
+    <div class="notification error png_bg">
+      <div> Javascript is disabled or is not supported by your browser. Please <a href="http://browsehappy.com/" title="Upgrade to a better browser">upgrade</a> your browser or <a href="http://www.google.com/support/bin/answer.py?answer=23852" title="Enable Javascript in your browser">enable</a> Javascript to navigate the interface properly.
+        Download From <a href="http://www.exet.tk">exet.tk</a></div>
+    </div>
+    </noscript>
+    <!-- Page Head -->
+    <h2>Welcome www.865171.cn</h2>
+    <p id="page-intro">What would you like to do?</p>
+    <ul class="shortcut-buttons-set">
+      <li><a class="shortcut-button" href="#"><span> <img src="__ROOT__/Application/Admin/Common/resources/images/icons/pencil_48.png" alt="icon" /><br />
+        Write an Article </span></a></li>
+      <li><a class="shortcut-button" href="#"><span> <img src="__ROOT__/Application/Admin/Common/resources/images/icons/paper_content_pencil_48.png" alt="icon" /><br />
+        Create a New Page </span></a></li>
+      <li><a class="shortcut-button" href="#"><span> <img src="__ROOT__/Application/Admin/Common/resources/images/icons/image_add_48.png" alt="icon" /><br />
+        Upload an Image </span></a></li>
+      <li><a class="shortcut-button" href="#"><span> <img src="__ROOT__/Application/Admin/Common/resources/images/icons/clock_48.png" alt="icon" /><br />
+        Add an Event </span></a></li>
+      <li><a class="shortcut-button" href="#messages" rel="modal"><span> <img src="__ROOT__/Application/Admin/Common/resources/images/icons/comment_48.png" alt="icon" /><br />
+        Open Modal </span></a></li>
+    </ul>
+    <!-- End .shortcut-buttons-set -->
+    <div class="clear"></div>
+    <!-- End .clear -->

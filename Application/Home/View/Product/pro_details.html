@@ -1,0 +1,158 @@
+<include file="Application/Home/Common/header.html"/>
+<title>产品详情</title>
+<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Common/css/pro_details.css">
+<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Common/css/jquery.mCustomScrollbar.css">
+	<!-- main开始 -->
+	<div class="main">
+		<div class="container">
+			<p>当前位置：<a href="<{:U('Index/index')}>">首页</a>><a href="<{:U('Product/index')}>?p=1">产品中心</a>><span>产品详情</span></p>
+			<div class="content">
+				<!-- 副导航开始 -->
+				<div class="subnav">
+					<volist name="cate_all" id="vo" >
+					<if condition="$vo.id eq $product['cate']"><a href="__URL__/index?cate=<{$vo.id}>&p=1" class="selected" ><{$vo.name}></a>
+					<else /><a href="__URL__/index?cate=<{$vo.id}>&p=1" ><{$vo.name}></a>
+					</if>
+					</volist>
+				</div>
+				<!-- 副导航结束 -->
+
+				<!-- tab选项卡开始 -->
+				<div class="tab">
+					<div class="row">
+						<div class="col-sm-12 col-md-5 col-lg-6">
+							<div class="album">
+								<img src="__ROOT__/<{$image[0]}>" alt="" title="">
+								<div class="album_show">
+									<span class="pro_prev"><img src="__ROOT__/Application/Home/Common/images/pro_prev.png" alt="" title=""></span>
+										<div class="view">
+											<ul>
+												<volist name="image" id="voo">
+												<li><img src="__ROOT__/<{$voo}>" alt="" title="" style="width: 108px;height: 108px"></li>
+												</volist>
+											</ul>
+										</div>
+									<span class="pro_next"><img src="__ROOT__/Application/Home/Common/images/pro_next.png" alt="" title=""></span>	
+								</div>								
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-7 col-lg-6">
+							<div class="pro_info">
+								<h2><{$product["pro_name"]}></h2>
+								<div class="pro_text">
+									<div class="price">
+										价格:  
+										<span>￥<{$product["new_price"]}></span>
+									</div>
+									<foreach name="attr" item="v" key="k" >
+									<div class="color" id="<{$k}>">
+										<{$k}>:
+										<volist name="v" id="v1">  
+										<span><{$v1}></span>
+										</volist>
+									</div>
+									</foreach>
+									
+									<div class="number">
+										数量:  
+										<a href="javascript:;" class="sub">-</a>
+										<input type="" name="num" value="1">
+										<a href="javascript:;" class="add">+</a>
+									</div>
+									<div class="link">
+										<a href="<{:U('Shopping/pay_cart')}>?id=<{$product['id']}>" id="pay">立即购买</a>
+										<a href="<{:U('Shopping/add_cart')}>?id=<{$product['id']}>" id="cart" >加入购物车</a>
+									</div>
+									<div class="service">
+										<span class="label">服务保证:  </span>
+										<p>
+											<span><i class="quality"></i>正品保证</span>
+											<span><i class="on_time"></i>按时发货</span>
+											<span><i class="seven_day"></i>7天无理由</span>
+										<p>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- tab选项卡结束 -->	
+			</div>
+		</div>
+	</div>
+	<!-- main结束 -->
+
+<include file="Application/Home/Common/footer.html"/>
+<script type="text/javascript" src='__ROOT__/Application/Home/Common/js/pro_details.js'></script>
+<script src="__ROOT__/Application/Home/Common/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="__ROOT__/Application/Home/Common/js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript">
+$(".nav-pills li").eq(2).addClass("current");
+$(function(){
+	$(".view ul li").eq(0).addClass("cur");
+	$(".color span:first-child").addClass("selected");
+	$("#cart").click(function(){
+		var url=$(this).attr('href');
+		var num=$("[name='num']").val();
+		var i=0;
+		var str="{";
+		while($(".color").eq(i).attr('id')){
+			var a=$(".color").eq(i).attr('id');
+			var b=$(".color span[class='selected']").eq(i).html();
+			str+='"'+a+'"'+':"'+b+'",';
+			i++;
+		}
+		str = str.substr(0,str.length-1);
+		str += "}";
+		$.ajax({
+			type:"GET",
+            url:url,
+            data:"number="+num+"&attr="+str,
+            success:function(e){
+            	if(e==1){
+            		alert("添加成功");
+            	}else{
+            		alert("请登录");
+            	}
+            }
+		})
+		return false;
+	});
+	$("#pay").click(function(){
+		var url=$(this).attr('href');
+		var num=$("[name='num']").val();
+		var i=0;
+		var str="{";
+		while($(".color").eq(i).attr('id')){
+			var a=$(".color").eq(i).attr('id');
+			var b=$(".color span[class='selected']").eq(i).html();
+			str+='"'+a+'"'+':"'+b+'",';
+			i++;
+		}
+		str = str.substr(0,str.length-1);
+		str += "}";
+		$.ajax({
+			type:"GET",
+            url:url,
+            data:"number="+num+"&attr="+str,
+            success:function(e){
+            	if(e==1){
+            		$(window).attr('location',"<{:U('Shopping/comfirm_order')}>");
+            	}else{
+            		alert("请登录");
+            	}
+            }
+		})
+		return false;
+	});
+	$(window).load(function(){
+		$(".pro_text").mCustomScrollbar({
+
+			// scrollInertia:150
+
+		});
+	});
+
+});
+</script>

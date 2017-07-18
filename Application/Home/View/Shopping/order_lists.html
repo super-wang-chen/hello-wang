@@ -1,0 +1,181 @@
+<include file="Application/Home/Common/header.html"/>
+<title>我的订单</title>
+<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Common/css/order.css">
+
+	<div class="main">
+		<div class="container">
+			<p>当前位置：<a href="<{:U('Index/index')}>">首页</a>><a href="<{:U('Shopping/center')}>">会员中心</a>><span>我的订单</span></p>
+			<div class="content">
+				<div class="row">
+					<div class="col-sm-3 col-md-3 col-lg-3 hidden-xs">
+						<div class="order-subnav">
+							<h3>会员中心</h3>
+							<dl>
+								<dt><i class="order-user"></i>个人中心</dt>
+								<dd><a href="center">基本资料</a></dd>
+								<!-- <dd><a href="javascript:;">修改资料</a></dd> -->
+								<!-- <dd><a href="<{:U('Shopping/center')}>">我的收藏</a></dd> -->
+								<!-- <dd><a href="javascript:;">历史记录</a></dd> -->
+								
+								<dt><i class="order-form"></i>订单中心</dt>
+								<dd><a href="order_lists.html?p=1" class="cur">我的订单</a></dd>
+								<!-- <dd><a href="javascript:;">取消订单</a></dd>
+								<dd><a href="javascript:;">我的评价</a></dd> -->
+								<dd><a href="address.html">收货地址</a></dd>
+								
+								<!-- <dt><i class="order-wallet"></i>我的钱包</dt>
+								<dd><a href="javascript:;">我的余额</a></dd>
+								<dd><a href="javascript:;">优惠券</a></dd>
+								<dd><a href="javascript:;">我的评价</a></dd>
+								<dd><a href="javascript:;">我的积分</a></dd>
+								
+								<dt><i class="order-safe"></i>安全中心</dt>
+								<dd><a href="javascript:;">修改密码</a></dd>
+								<dd><a href="javascript:;">绑定手机</a></dd>
+								<dd><a href="javascript:;">密保问题</a></dd> -->
+								
+							</dl>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 order-content">
+						<div class="row order-header" >
+							<ul class="col-sm-12 col-md-6 col-lg-6">
+								<li><a href="__URL__/order_lists?p=1&state=全部" class="cur">全部订单</a></li>
+								<li><a href="__URL__/order_lists?p=1&state=已支付">已完成</a></li>
+								<li><a href="__URL__/order_lists?p=1&state=未支付">待付款</a></li>
+							</ul>
+							<ul class="col-sm-12 col-md-6 col-lg-6">
+								<li><a href="__URL__/order_lists?p=1&state=待发货">待发货</a></li>
+								<li><a href="__URL__/order_lists?p=1&state=待收货">待收货</a></li>
+								<li><a href="__URL__/order_lists?p=1&state=待评价">待评价</a></li>
+							</ul>
+						</div>
+						<table class="hidden-xs">
+							<thead>
+								<tr>
+									<th>商品信息</th>
+									<th>金额</th>
+									<th class="hidden-sm">收货人</th>
+									<th>状态</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+							<tbody>
+							<volist name="data" id="vo">
+							
+								<tr>
+									<td>
+										<p>订单编号：<{$vo.order_num}></p>
+										<a href="<{:U('Product/pro_details')}>?id=<{$vo.pro_id}>"><img src="__ROOT__/<{$vo.image}>" alt="" title="" style="width: 147px;height: 160px;"></a>
+										<a href="<{:U('Product/pro_details')}>?id=<{$vo.pro_id}>"><{$vo.pro_name}></a>	
+									</td>
+									<td>￥<{$vo.price}></td>
+									<td class="hidden-sm"><{$vo.name}></td>
+									<td>
+										<a href="javascript:;"><{$vo.state}></a><br/>
+										<a href="order_details?id=<{$vo.order_num}>">订单详情</a>
+										<a href="order_details?id=<{$vo.order_num}>">查看物流</a>
+									</td>
+									<td>
+										<a href="<{:U('Product/index')}>?p=1" class="cur">再来一单</a>
+										<a href="order_del?id=<{$vo.order_num}>" class="delete">删除订单</a>
+									</td>
+								</tr>
+							
+							</volist>
+							</tbody>
+						</table>
+						
+						<div aria-label="Page navigation" class='page'>
+						    
+						    <{$show}>
+							   <!--  <li>
+							        <a href="#" aria-label="Previous">
+							        	<span aria-hidden="true">上一页</span>
+							        </a>
+							    </li>
+							    <li class="active"><a href="#">1</a></li>
+							    <li><a href="#">2</a></li>
+							    <li><a href="#">3</a></li>
+							    <li><a href="#">...</a></li>
+							    <li>
+							        <a href="#" aria-label="Next">
+							        	<span aria-hidden="true">下一页</span>
+							        </a>
+							    </li>  -->
+						    
+						    <!-- <form>
+							    <label>第<input type="" name="">页</label>
+							    <button type="submit">确定</button>
+							</form> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- main结束 -->
+
+<include file="Application/Home/Common/footer.html"/>
+<script type="text/javascript" src='__ROOT__/Application/Home/Common/js/order.js'></script>
+<script type="text/javascript" src="__ROOT__/Application/Home/Common/js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript">
+$(".nav-pills li").eq(4).addClass("current");
+	$('.delete').live('click',function(){
+		if(confirm('是否删除')){
+			var url=$(this).attr("href");
+			$.ajax({
+				url:url,
+				success:function(e){}
+			})
+			$(this).parents('tr').remove();
+		};
+		return false;
+	});
+	$(".order-header ul li a").click(function(){
+		$(".order-header ul li a").removeClass();
+		$(this).addClass("cur");
+	});
+	$(".page div a,.order-header ul li a").live('click',function(){
+      var url = $(this).attr('href');
+      $.ajax({
+        type:"GET",
+        url:url,
+        dataType:"json",
+        success:function(msg){
+          var show = msg.show;
+          var str = "";
+          for(var i=0;i<msg.lists.length;i++){
+				str+='<tr>';
+				str+='<td>';
+				str+='<p>订单编号：'+msg.lists[i]["order_num"]+'</p>';
+				str+='<a href="';
+				str+="<{:U('Product/pro_details')}>?id="+msg.lists[i]["pro_id"];
+				str+='"><img src="__ROOT__/'+msg.lists[i]["image"]+'" alt=""';
+				str+='title="" style="width: 147px;height: 160px;"></a>';
+				str+='<a href="';
+				str+="<{:U('Product/pro_details')}>?id="+msg.lists[i]["pro_id"];
+				str+='">'+msg.lists[i]["pro_name"]+'</a>';	
+				str+='</td>';
+				str+='<td>￥'+msg.lists[i]["price"]+'</td>';
+				str+='<td class="hidden-sm">'+msg.lists[i]["name"]+'</td>';
+				str+='<td>';
+				str+='<a href="javascript:;">'+msg.lists[i]["state"]+'</a><br/>';
+				str+='<a href="order_details?id='+msg.lists[i]["order_num"]+'">订单详情</a>';
+				str+='<a href="order_details?id='+msg.lists[i]["order_num"]+'">查看物流</a>';
+				str+='</td>';
+				str+='<td>';
+				str+='<a href="';
+				str+="<{:U('Product/index')}>?p=1";
+				str+='" class="cur">再来一单</a>';
+				str+='<a href="order_del?id='+msg.lists[i]["order_num"]+'" class="delete">删除订单</a>';
+				str+='</td>';
+				str+='</tr>';
+          }
+          $(".hidden-xs tbody").html(str);
+          $(".page").html(show);
+        }
+      })
+      return false;
+    })
+</script>

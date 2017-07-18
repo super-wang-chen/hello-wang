@@ -1,0 +1,137 @@
+<include file="Application/Home/Common/header.html"/>
+<title>确认订单</title>
+<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Common/css/comfirm_order.css">
+
+	<!-- main开始 -->
+	<div class="main">
+		<div class="container">
+			<div class="shop-header">
+				<h2>确认订单</h2>
+				<div class="shop-flow hidden-sm hidden-xs">
+					<i></i>
+					<ol>
+						<li>我的购物车</li>
+						<li class="cur">确认订单</li>
+						<li>支付订单</li>
+					</ol>
+				</div>	
+			</div>
+			<div class="content" name="__URL__/address_del">
+				<h4>收货地址</h4>
+				<div class="address row">
+				<volist name="address" id="voo">
+				<if condition="$voo.id eq $curt">
+					<div class="address-info default col-sm-3 col-md-3 col-lg-3"  name="<{$voo.id}>">
+						<span>默认地址</span>
+						<p><{$voo.name}>   收</p>
+						<p><{$voo.phone}></p>
+						<p><{$voo.address}></p>
+						<button type="button" class="delete" name="<{$voo.id}>">删除</button>
+						<i></i>
+					</div>
+				<else/>
+					<div class="address-info col-sm-3 col-md-3 col-lg-3"  name="<{$voo.id}>">
+						<span>默认地址</span>
+						<p><{$voo.name}>   收</p>
+						<p><{$voo.phone}></p>
+						<p><{$voo.address}></p>
+						<button type="button" class="delete" name="<{$voo.id}>">删除</button>
+						<i></i>
+					</div>
+				</if>
+				</volist>
+					<!-- <div class="address-info default col-sm-3 col-md-3 col-lg-3">
+						<span>默认地址</span>
+						<p>六娃   收</p>
+						<p>12580112110</p>
+						<p>广东省   广州市   白云区中山大道东213号</p>
+						<button type="button" class="delete">删除</button>
+						<button type="button" class="change">修改</button>
+						<i></i>
+					</div>
+					<div class="address-info col-sm-3 col-md-3 col-lg-3">
+						<span>默认地址</span>
+						<p>六娃   收</p>
+						<p>12580112110</p>
+						<p>广东省   广州市   白云区中山大道东213号</p>
+						<button type="button" class="delete">删除</button>
+						<button type="button" class="change">修改</button>
+						<i></i>
+					</div> -->
+					<div class="add-address col-sm-3 col-md-3 col-lg-3">
+						<i></i>
+						<a href="__URL__/address">新增收货地址</a>
+					</div>
+				</div>
+				<h4>订单信息</h4>
+				<table class="hidden-xs">
+					<thead>
+						<tr>
+							<td>商品信息</td>
+							<td></td>
+							<td>单价/元</td>
+							<td>数量</td>
+							<td>金额</td>
+							<td>库存</td>
+						</tr>
+					</thead>
+					<tbody>
+					<volist name="order" id="vo">
+						<tr>
+							<td><a href="<{:U('Product/pro_details')}>?id=<{$vo.pro_id}>"><img src="__ROOT__/<{$vo.image}>" alt="" title="" style="width: 184px;height: 200px;"></a></td>
+							<td><a href="<{:U('Product/pro_details')}>?id=<{$vo.pro_id}>"><{$vo.pro_name}></a></td>
+							<td>￥<{$vo.new_price}></td>
+							<td class="number"><{$vo.number}></td>
+							<td class="price">￥<{$vo.total}></td>
+							<td><{$vo.inven}></td>
+						</tr>
+					</volist>
+						<!-- <tr>
+							<td><a href="pro_details.html"><img src="images/shop_cart_image.jpg" alt="" title=""></a></td>
+							<td><a href="pro_details.html">青木·Ching muk 2016冬季新款修身毛呢连衣裙女中长款</a></td>
+							<td>￥598.00</td>
+							<td>1</td>
+							<td>￥598.00</td>
+							<td>有货</td>
+						</tr> -->
+					</tbody>
+				</table>
+				<!-- <ul class="visible-xs">
+					<li class="order-image">
+						<a href="pro_details.html"><img src="images/shop_cart_image.jpg" alt="" title=""></a>
+					</li>
+					<li class="order-info">
+						<a href="pro_details.html">青木·Ching muk 2016冬季新款修身毛呢连衣裙女中长款</a>
+						<span>单价：￥598.00</span>
+						<span>数量：1</span>
+						<span>总计：￥598.00</span>
+					</li>
+				</ul> -->
+				<div class="shop-foot">
+					<p>已选商品 <span class="numTotal"></span> 件</p>
+					<p>合计（含运费）￥<span class="totalPrice"></span>元</p>
+					<a href="__URL__/pay">结算</a>
+				</div>	
+			</div>
+		</div>
+	</div>
+	<!-- main结束 -->
+
+<include file="Application/Home/Common/footer.html"/>
+<script type="text/javascript" src='__ROOT__/Application/Home/Common/js/comfirm_order.js'></script>
+<script type="text/javascript">
+	$('.address-info').click(function(){
+		var url="address_change";
+		var id=$(this).attr("name");
+		  $.ajax({
+			url:url,
+			data:"id="+id,
+			success:function(e){
+			}
+		  })
+		//$(this).addClass('default').siblings().removeClass('default');
+	});
+</script>
+<script type="text/javascript">
+	$(".nav-pills li").eq(4).addClass("current");
+</script>

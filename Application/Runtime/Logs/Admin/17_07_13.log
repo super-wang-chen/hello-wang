@@ -1,0 +1,2956 @@
+[ 2017-07-13T14:23:55+08:00 ] ::1 /qmss/index.php/admin/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2017-07-13T14:23:59+08:00 ] ::1 /qmss/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2017-07-13T14:24:00+08:00 ] ::1 /qmss/index.php/admin/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-07-13T14:24:00+08:00 ] ::1 /qmss/index.php/admin/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+
+[ 2017-07-13T14:24:05+08:00 ] ::1 /qmss/index.php/Admin/Admin/admin_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+
+[ 2017-07-13T14:24:05+08:00 ] ::1 /qmss/index.php/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2017-07-13T14:24:05+08:00 ] ::1 /qmss/index.php/Admin/Index/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-07-13T14:24:05+08:00 ] ::1 /qmss/index.php/Admin/Index/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002525s ]
+
+[ 2017-07-13T14:24:06+08:00 ] ::1 /qmss/index.php/Admin/Index/ver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002925s ]
+
+[ 2017-07-13T14:24:14+08:00 ] ::1 /qmss/index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+
+[ 2017-07-13T14:24:17+08:00 ] ::1 /qmss/index.php/Admin/Index/ver?0.005711801959229268
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2017-07-13T14:24:27+08:00 ] ::1 /qmss/index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0803s ]
+SQL: SELECT * FROM `tp_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-13T14:24:27+08:00 ] ::1 /qmss/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2017-07-13T14:24:27+08:00 ] ::1 /qmss/index.php/Admin/Index/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+
+[ 2017-07-13T14:24:27+08:00 ] ::1 /qmss/index.php/Admin/Index/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-07-13T14:24:32+08:00 ] ::1 /qmss/index.php/Admin/Admin/admin_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2017-07-13T14:24:37+08:00 ] ::1 /qmss/index.php/Admin/Admin/index.html?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tp_admin`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2017-07-13T14:24:37+08:00 ] ::1 /qmss/index.php/Admin/Admin/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+
+[ 2017-07-13T14:24:37+08:00 ] ::1 /qmss/index.php/Admin/Admin/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2017-07-13T14:24:41+08:00 ] ::1 /qmss/index.php/Admin/News/news_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001409s ]
+
+[ 2017-07-13T14:25:02+08:00 ] ::1 /qmss/index.php/Admin/News/news_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0136s ]
+SQL: INSERT INTO `tp_news` (`title`,`author`,`create_time`,`content`,`image`) VALUES ('asdasdsadsad','dasdsadsadsa','1499927101','<p>adasdsadsadsadsad<br/></p>','[\".\\/Uploads\\/news\\/2017-07-13\\/5967123d7b166.jpg\",\".\\/Uploads\\/news\\/2017-07-13\\/5967123d8ef30.jpg\",\".\\/Uploads\\/news\\/2017-07-13\\/5967123d8febe.jpg\",\".\\/Uploads\\/news\\/2017-07-13\\/5967123d90ff8.jpg\",\".\\/Uploads\\/news\\/2017-07-13\\/5967123d92080.jpg\",\".\\/Uploads\\/news\\/2017-07-13\\/5967123d92e48.jpg\"]') [ RunTime:0.0008s ]
+
+[ 2017-07-13T14:25:04+08:00 ] ::1 /qmss/index.php/Admin/News/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2017-07-13T14:25:04+08:00 ] ::1 /qmss/index.php/Admin/News/index/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+
+[ 2017-07-13T14:25:04+08:00 ] ::1 /qmss/index.php/Admin/News/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-07-13T14:25:04+08:00 ] ::1 /qmss/index.php/Admin/News/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+
+[ 2017-07-13T14:25:11+08:00 ] ::1 /qmss/index.php/Admin/News/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0714s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 2,2   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-13T14:25:14+08:00 ] ::1 /qmss/index.php/Admin/News/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 4,2   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-07-13T14:25:19+08:00 ] ::1 /qmss/index.php/Admin/News/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 6,2   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-07-13T14:25:21+08:00 ] ::1 /qmss/index.php/Admin/News/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 8,2   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-07-13T14:25:25+08:00 ] ::1 /qmss/index.php/Admin/News/news_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-07-13T14:25:41+08:00 ] ::1 /qmss/index.php/Admin/News/news_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0092s ]
+SQL: INSERT INTO `tp_news` (`title`,`author`,`create_time`,`content`,`image`) VALUES ('dsadsadsad','dasdsadsad','1499927140','<p>dasdsadsad<br/></p>','[\".\\/Uploads\\/news\\/2017-07-13\\/5967126473896.png\",\".\\/Uploads\\/news\\/2017-07-13\\/5967126473e41.jpg\",\".\\/Uploads\\/news\\/2017-07-13\\/5967126475092.jpg\",\".\\/Uploads\\/news\\/2017-07-13\\/5967126483384.jpg\",\".\\/Uploads\\/news\\/2017-07-13\\/5967126484166.jpg\",\".\\/Uploads\\/news\\/2017-07-13\\/5967126485082.jpg\"]') [ RunTime:0.0005s ]
+
+[ 2017-07-13T14:25:42+08:00 ] ::1 /qmss/index.php/Admin/News/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2017-07-13T14:25:42+08:00 ] ::1 /qmss/index.php/Admin/News/index/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+
+[ 2017-07-13T14:25:43+08:00 ] ::1 /qmss/index.php/Admin/News/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2017-07-13T14:25:43+08:00 ] ::1 /qmss/index.php/Admin/News/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-07-13T14:25:48+08:00 ] ::1 /qmss/index.php/Admin/News/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 2,2   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:25:51+08:00 ] ::1 /qmss/index.php/Admin/News/news_delete?id=13&curpage=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `tp_news` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0007s ]
+SQL: DELETE FROM `tp_news` WHERE `id` = 13 [ RunTime:0.0005s ]
+
+[ 2017-07-13T14:25:52+08:00 ] ::1 /qmss/index.php/Admin/News/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 2,2   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2017-07-13T14:25:52+08:00 ] ::1 /qmss/index.php/Admin/News/index/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2017-07-13T14:25:52+08:00 ] ::1 /qmss/index.php/Admin/News/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-07-13T14:25:52+08:00 ] ::1 /qmss/index.php/Admin/News/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-07-13T14:29:43+08:00 ] ::1 /qmss/index.php/Admin/Product/product_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0638s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2017-07-13T14:30:13+08:00 ] ::1 /qmss/index.php/Admin/Product/product_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0002s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0044s ]
+SQL: INSERT INTO `tp_product` (`attr`,`pro_name`,`cate`,`price`,`new_price`,`num`,`content`,`image`,`create_time`) VALUES ('{\"dsda\":[\"dsa\"]}','sdasdsa','2','122','122','50','&lt;p&gt;adasdsadsad&lt;br/&gt;&lt;/p&gt;','[\".\\/Uploads\\/product\\/2017-07-13\\/5967137563d37.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967137564ea9.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967137565e14.jpg\"]','1499927413') [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:30:14+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2017-07-13T14:30:14+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2017-07-13T14:30:14+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2017-07-13T14:30:14+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2017-07-13T14:30:23+08:00 ] ::1 /qmss/index.php/Admin/Product/product_delete?id=10&curpage=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tp_product` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0005s ]
+SQL: DELETE FROM `tp_product` WHERE `id` = 10 [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:30:25+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2017-07-13T14:30:25+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2017-07-13T14:30:25+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+
+[ 2017-07-13T14:30:25+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2017-07-13T14:30:29+08:00 ] ::1 /qmss/index.php/Admin/Product/product_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2017-07-13T14:30:56+08:00 ] ::1 /qmss/index.php/Admin/Product/product_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0053s ]
+SQL: INSERT INTO `tp_product` (`attr`,`pro_name`,`cate`,`price`,`new_price`,`num`,`content`,`image`,`create_time`) VALUES ('{\"ff\":[\"dd\"]}','dsaddfsf','2','112','255','55','&lt;p&gt;sadsad&lt;br/&gt;&lt;/p&gt;','[\".\\/Uploads\\/product\\/2017-07-13\\/596713a0a3683.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/596713a0a5081.jpg\"]','1499927456') [ RunTime:0.0005s ]
+
+[ 2017-07-13T14:30:57+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2017-07-13T14:30:57+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-07-13T14:30:58+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-07-13T14:30:58+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2017-07-13T14:31:03+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 2,2   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:31:05+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 4,2   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:31:07+08:00 ] ::1 /qmss/index.php/Admin/Product/product_delete?id=7&curpage=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0688s ]
+SQL: SELECT * FROM `tp_product` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `tp_product` WHERE `id` = 7 [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:31:08+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 4,2   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2017-07-13T14:31:09+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-07-13T14:31:09+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+
+[ 2017-07-13T14:31:09+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2017-07-13T14:33:07+08:00 ] ::1 /qmss/index.php/Admin/Product/product_update?id=6&curpage=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `tp_product` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2017-07-13T14:33:29+08:00 ] ::1 /qmss/index.php/Admin/Product/product_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\qmss\Application\Admin\Controller\ProductController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.1038s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `tp_product` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `tp_product` SET `id`='6',`pro_name`='ettt宣传册',`cate`='2',`price`='67',`num`='76',`attr`='{\"t\":[\"y\",\"u\",\"tsadad\"]}',`image`='[\".\\/Uploads\\/product\\/2017-07-13\\/596714392fafc.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/59671439308b4.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967143931589.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967143932364.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/596714393313c.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967143933e6b.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967143934bcc.jpg\"]',`content`='&lt;p&gt;的鹅鹅鹅饿鹅鹅鹅饿鹅鹅鹅饿鹅鹅鹅饿&lt;br/&gt;&lt;/p&gt;',`create_time`='1495693546',`new_price`='34.65' WHERE `id` = 6 [ RunTime:0.0004s ]
+
+[ 2017-07-13T14:33:30+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 4,2   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2017-07-13T14:33:30+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2017-07-13T14:33:30+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+
+[ 2017-07-13T14:33:30+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+
+[ 2017-07-13T14:33:34+08:00 ] ::1 /qmss/index.php/Admin/Product/product_update?id=5&curpage=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `tp_product` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2017-07-13T14:33:46+08:00 ] ::1 /qmss/index.php/Admin/Product/product_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\qmss\Application\Admin\Controller\ProductController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_product` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `tp_product` SET `id`='5',`pro_name`='eeeee',`cate`='2',`price`='34.65',`num`='33',`attr`='{\"e\":[\"y\",\"y\",\"u\"],\"t\":[\"h\",\"h\",\"g\"]}',`image`='[\".\\/Uploads\\/product\\/2017-07-13\\/5967144a47366.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967144a48c15.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967144a49b96.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967144a4ac18.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967144a4bb4b.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967144a4ce90.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967144a4de89.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967144a4edc5.jpg\"]',`content`='&lt;p&gt;hhhhhhhhhhhhhhhhhsadsadasdsahhh&lt;br/&gt;&lt;/p&gt;',`create_time`='1495675747',`new_price`='34.65' WHERE `id` = 5 [ RunTime:0.0004s ]
+
+[ 2017-07-13T14:33:47+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 4,2   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2017-07-13T14:33:47+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+
+[ 2017-07-13T14:33:47+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2017-07-13T14:33:47+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-07-13T14:33:52+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 2,2   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-13T14:33:56+08:00 ] ::1 /qmss/index.php/Admin/Product/product_update?id=9&curpage=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `tp_product` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2017-07-13T14:34:08+08:00 ] ::1 /qmss/index.php/Admin/Product/product_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\qmss\Application\Admin\Controller\ProductController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `tp_product` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `tp_product` SET `id`='9',`pro_name`='yyyyy',`cate`='1',`price`='77',`num`='77',`attr`='{\"7\":[\"7\",\"7\",\"7\"]}',`image`='[\".\\/Uploads\\/product\\/2017-07-13\\/596714608b03a.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/596714608befe.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/596714608cd3e.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/596714608df63.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/596714608ecba.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/596714608fa73.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/59671460908e3.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/596714609160b.jpg\"]',`content`='&lt;p&gt;一月又一月晕晕晕晕晕晕晕晕晕晕sdasds&lt;br/&gt;&lt;/p&gt;',`create_time`='1495693706',`new_price`='34.65' WHERE `id` = 9 [ RunTime:0.0004s ]
+
+[ 2017-07-13T14:34:09+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 2,2   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2017-07-13T14:34:09+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+
+[ 2017-07-13T14:34:09+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2017-07-13T14:34:10+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+
+[ 2017-07-13T14:34:10+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-07-13T14:34:13+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-13T14:34:15+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 2,2   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:34:18+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 4,2   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:34:20+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 6,2   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:34:24+08:00 ] ::1 /qmss/index.php/Admin/Product/product_update?id=4&curpage=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `tp_product` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2017-07-13T14:34:34+08:00 ] ::1 /qmss/index.php/Admin/Product/product_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\qmss\Application\Admin\Controller\ProductController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tp_product` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `tp_product` SET `id`='4',`pro_name`='bbbbb',`cate`='2',`price`='34.65',`num`='22',`attr`='{\"w\":[\"w\",\"ww\",\"w\"],\"e\":[\"e\",\"e\",\"ee\"],\"q\":[\"q\"]}',`image`='[\".\\/Uploads\\/product\\/2017-07-13\\/5967147a14f37.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967147a15cca.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967147a16cb5.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967147a17b3b.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967147a18868.jpg\"]',`content`='&lt;p&gt;凄凄切切群群群群群群群群群群群群群群群群群群群群群群群群群群群dasdsadsad群&lt;br/&gt;&lt;/p&gt;',`create_time`='1495593829',`new_price`='34.65' WHERE `id` = 4 [ RunTime:0.0004s ]
+
+[ 2017-07-13T14:34:35+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 6,2   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2017-07-13T14:34:35+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+
+[ 2017-07-13T14:34:35+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2017-07-13T14:34:35+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-07-13T14:34:42+08:00 ] ::1 /qmss/index.php/Admin/Product/product_update?id=3&curpage=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `tp_product` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2017-07-13T14:34:53+08:00 ] ::1 /qmss/index.php/Admin/Product/product_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\qmss\Application\Admin\Controller\ProductController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0503s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `tp_product` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `tp_product` SET `id`='3',`pro_name`='aaaaaa',`cate`='1',`price`='92.67',`num`='22',`attr`='{\"a\":[\"a\",\"b\",\"c\",\"d\"],\"c\":[\"d\",\"s\",\"a\"]}',`image`='[\".\\/Uploads\\/product\\/2017-07-13\\/5967148cdab43.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967148cdb876.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967148cdc600.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967148cdd440.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967148cde22a.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967148cdf155.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967148ce0038.jpg\"]',`content`='&lt;p&gt;呃呃呃呃呃呃呃呃呃鹅鹅鹅鹅鹅鹅饿鹅鹅鹅饿&lt;br/&gt;&lt;/p&gt;',`create_time`='1495593671',`new_price`='34.65' WHERE `id` = 3 [ RunTime:0.0005s ]
+
+[ 2017-07-13T14:34:54+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 6,2   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2017-07-13T14:34:54+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+
+[ 2017-07-13T14:34:54+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+
+[ 2017-07-13T14:34:54+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-07-13T14:34:57+08:00 ] ::1 /qmss/index.php/Admin/Product/product_cate_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2017-07-13T14:35:00+08:00 ] ::1 /qmss/index.php/Admin/Product/product_cate_lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2017-07-13T14:35:00+08:00 ] ::1 /qmss/index.php/Admin/Product/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2017-07-13T14:35:00+08:00 ] ::1 /qmss/index.php/Admin/Product/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-07-13T14:35:03+08:00 ] ::1 /qmss/index.php/Admin/Single/banner_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-07-13T14:35:11+08:00 ] ::1 /qmss/index.php/Admin/Single/banner_lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `tp_banner` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `tp_banner`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0043s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2017-07-13T14:35:11+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-07-13T14:35:11+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-07-13T14:35:20+08:00 ] ::1 /qmss/index.php/Admin/Single/banner_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2017-07-13T14:35:34+08:00 ] ::1 /qmss/index.php/Admin/Single/banner_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0403s ]
+SQL: SELECT * FROM `tp_product` WHERE ( `id`=5 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_banner` [ RunTime:0.0054s ]
+SQL: INSERT INTO `tp_banner` (`pro_id`,`create_time`,`image`) VALUES ('5','1499927733','./Uploads/banner/2017-07-13/596714b6e7313.jpg') [ RunTime:0.0005s ]
+
+[ 2017-07-13T14:35:34+08:00 ] ::1 /qmss/index.php/Admin/Single/banner_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2017-07-13T14:35:51+08:00 ] ::1 /qmss/index.php/Admin/Single/banner_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `tp_product` WHERE ( `id`=11 ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_banner` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tp_banner` (`pro_id`,`create_time`,`image`) VALUES ('11','1499927750','./Uploads/banner/2017-07-13/596714c744718.jpg') [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:35:51+08:00 ] ::1 /qmss/index.php/Admin/Single/banner_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2017-07-13T14:35:54+08:00 ] ::1 /qmss/index.php/Admin/Single/banner_lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `tp_banner` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `tp_banner`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0693s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2017-07-13T14:35:55+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2017-07-13T14:35:55+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+
+[ 2017-07-13T14:35:59+08:00 ] ::1 /qmss/index.php/Admin/Single/banner_delete?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `tp_banner` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `tp_banner` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `tp_banner` WHERE `id` = 6 [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:36:00+08:00 ] ::1 /qmss/index.php/Admin/Single/banner_lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `tp_banner` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `tp_banner`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0083s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2017-07-13T14:36:01+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-07-13T14:36:01+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-07-13T14:36:09+08:00 ] ::1 /qmss/index.php/Admin/Single/banner_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2017-07-13T14:36:24+08:00 ] ::1 /qmss/index.php/Admin/Single/banner_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `tp_product` WHERE ( `id`=6 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_banner` [ RunTime:0.0041s ]
+SQL: INSERT INTO `tp_banner` (`pro_id`,`create_time`,`image`) VALUES ('6','1499927783','./Uploads/banner/2017-07-13/596714e8dbf82.jpg') [ RunTime:0.0004s ]
+
+[ 2017-07-13T14:36:24+08:00 ] ::1 /qmss/index.php/Admin/Single/banner_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-07-13T14:36:29+08:00 ] ::1 /qmss/index.php/Admin/Single/banner_lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `tp_banner` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `tp_banner`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0077s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2017-07-13T14:36:29+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-07-13T14:36:29+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+
+[ 2017-07-13T14:36:37+08:00 ] ::1 /qmss/index.php/Admin/Single/brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2017-07-13T14:36:37+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001276s ]
+
+[ 2017-07-13T14:36:37+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-07-13T14:36:50+08:00 ] ::1 /qmss/index.php/Admin/Single/brand_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.1007s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2017-07-13T14:37:13+08:00 ] ::1 /qmss/index.php/Admin/Single/brand_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `tp_brand` SET `id`='1',`image`='./Uploads/brand/2017-07-13/59671519a4f40.jpg',`content`='<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 青木三色创立于1993年，是集开发、生产、销售、品牌运营为一体的大型服装公司，公司自创立始一直秉承“以人为本、快乐分享”的人文理念，经过十六年的发展，公司已由原来的几十人发展至现今逾千人的中型著名女装企业，且凭借优良的品质、准确的市场定位、合理的价格优势，深受广大都市女性消费者的青睐。同时我们本着“先做深度再做广度”的发展观,发挥区域为王的品牌优势,营销网络遍及福建、广东、湖南、湖北、江苏、四川、安徽等省市市场在未来的规划里，集团</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 公司将仍以建立自己独特的企业文化和品牌文化为主题；以“团队、坚持、拼搏、责任”的经营理念引入现代企业管理机制，着力企业、品牌系列化标准建设，并确立及坚定不移地贯彻“人才谋盛世，标准定乾坤”的指导思想，吸纳优秀的青年才俊加入我们的精英团队，打造成管理规范化的时尚都市女装的航空母</p>' WHERE ( id=1 ) [ RunTime:0.0006s ]
+
+[ 2017-07-13T14:37:14+08:00 ] ::1 /qmss/index.php/Admin/Single/brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2017-07-13T14:37:14+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+
+[ 2017-07-13T14:37:14+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-07-13T14:37:18+08:00 ] ::1 /qmss/index.php/Admin/Single/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0987s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2017-07-13T14:37:18+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2017-07-13T14:37:18+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-07-13T14:37:21+08:00 ] ::1 /qmss/index.php/Admin/Single/message.html?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `tp_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2017-07-13T14:37:21+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2017-07-13T14:37:21+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2017-07-13T14:37:21+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-07-13T14:37:24+08:00 ] ::1 /qmss/index.php/Admin/Single/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001569s ]
+
+[ 2017-07-13T14:37:24+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-07-13T14:37:24+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2017-07-13T14:37:27+08:00 ] ::1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0552s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2017-07-13T14:37:41+08:00 ] ::1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `tp_contact` SET `id`='1',`url`='http://www.qm3s.com',`phone`='0592-5966253',`qq`='2024594934',`email`='2024594934@qq.com',`address`='厦门市湖里区华昌路132号华美空间文创园C1楼7A单元',`official_image`='./Uploads/contact/2017-07-13/596715355f19d.jpg',`service_image`='./Uploads/contact/2017-07-13/5967153560bdb.jpg' WHERE ( id=1 ) [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:37:42+08:00 ] ::1 /qmss/index.php/Admin/Single/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2017-07-13T14:37:42+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-07-13T14:37:42+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-07-13T14:37:47+08:00 ] ::1 /qmss/index.php/Admin/Members/lists.html?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `tp_members` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `tp_members` ORDER BY create_time desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_members` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2017-07-13T14:37:47+08:00 ] ::1 /qmss/index.php/Admin/Members/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2017-07-13T14:37:48+08:00 ] ::1 /qmss/index.php/Admin/Members/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-07-13T14:37:48+08:00 ] ::1 /qmss/index.php/Admin/Members/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+
+[ 2017-07-13T14:37:51+08:00 ] ::1 /qmss/index.php/Admin/Order/index.html?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_order` WHERE `delivery` = '待发货' ORDER BY create_time desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_order` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: time D:\phpStudy\WWW\qmss\Application\Admin\Controller\OrderController.class.php 第 25 行.
+NOTIC: [8] Undefined index: time D:\phpStudy\WWW\qmss\Application\Admin\Controller\OrderController.class.php 第 25 行.
+NOTIC: [8] Undefined index: time D:\phpStudy\WWW\qmss\Application\Admin\Controller\OrderController.class.php 第 25 行.
+NOTIC: [8] Undefined index: time D:\phpStudy\WWW\qmss\Application\Admin\Controller\OrderController.class.php 第 25 行.
+NOTIC: [8] Undefined index: time D:\phpStudy\WWW\qmss\Application\Admin\Controller\OrderController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2017-07-13T14:37:51+08:00 ] ::1 /qmss/index.php/Admin/Order/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2017-07-13T14:37:51+08:00 ] ::1 /qmss/index.php/Admin/Order/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-07-13T14:37:51+08:00 ] ::1 /qmss/index.php/Admin/Order/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-07-13T14:37:55+08:00 ] ::1 /qmss/index.php/Admin/Order/sended.html?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `tp_order` WHERE `delivery` = '已发货' ORDER BY create_time desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_order` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: time D:\phpStudy\WWW\qmss\Application\Admin\Controller\OrderController.class.php 第 72 行.
+NOTIC: [8] Undefined index: time D:\phpStudy\WWW\qmss\Application\Admin\Controller\OrderController.class.php 第 72 行.
+NOTIC: [8] Undefined index: time D:\phpStudy\WWW\qmss\Application\Admin\Controller\OrderController.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2017-07-13T14:37:55+08:00 ] ::1 /qmss/index.php/Admin/Order/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-07-13T14:37:55+08:00 ] ::1 /qmss/index.php/Admin/Order/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2017-07-13T14:37:55+08:00 ] ::1 /qmss/index.php/Admin/Order/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-07-13T14:37:55+08:00 ] ::1 /qmss/index.php/Admin/Order/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-07-13T14:37:58+08:00 ] ::1 /qmss/index.php/Admin/Order/index.html?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `tp_order` WHERE `delivery` = '待发货' ORDER BY create_time desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_order` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: time D:\phpStudy\WWW\qmss\Application\Admin\Controller\OrderController.class.php 第 25 行.
+NOTIC: [8] Undefined index: time D:\phpStudy\WWW\qmss\Application\Admin\Controller\OrderController.class.php 第 25 行.
+NOTIC: [8] Undefined index: time D:\phpStudy\WWW\qmss\Application\Admin\Controller\OrderController.class.php 第 25 行.
+NOTIC: [8] Undefined index: time D:\phpStudy\WWW\qmss\Application\Admin\Controller\OrderController.class.php 第 25 行.
+NOTIC: [8] Undefined index: time D:\phpStudy\WWW\qmss\Application\Admin\Controller\OrderController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2017-07-13T14:37:58+08:00 ] ::1 /qmss/index.php/Admin/Order/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2017-07-13T14:37:58+08:00 ] ::1 /qmss/index.php/Admin/Order/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+
+[ 2017-07-13T14:37:58+08:00 ] ::1 /qmss/index.php/Admin/Order/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+
+[ 2017-07-13T14:39:20+08:00 ] ::1 /qmss/index.php/Admin/Product/product_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2017-07-13T14:39:22+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists.html?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2017-07-13T14:39:22+08:00 ] ::1 /qmss/index.php/Admin/Product/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2017-07-13T14:39:22+08:00 ] ::1 /qmss/index.php/Admin/Product/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+
+[ 2017-07-13T14:39:22+08:00 ] ::1 /qmss/index.php/Admin/Product/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+
+[ 2017-07-13T14:39:25+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 2,2   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-13T14:39:29+08:00 ] ::1 /qmss/index.php/Admin/Product/product_update?id=8&curpage=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0389s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `tp_product` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2017-07-13T14:39:37+08:00 ] ::1 /qmss/index.php/Admin/Product/product_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\qmss\Application\Admin\Controller\ProductController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.1050s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `tp_product` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `tp_product` SET `id`='8',`pro_name`='uuuueu',`cate`='1',`price`='88.88',`num`='88',`attr`='{\"8\":[\"8\",\"8\",\"8\"]}',`image`='[\".\\/Uploads\\/product\\/2017-07-13\\/596715a9b9146.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/596715a9bb607.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/596715a9d3a3a.jpg\"]',`content`='&lt;p&gt;ttttttttttttttttttttttttttttttttttttt&lt;br/&gt;&lt;/p&gt;',`create_time`='1495693641',`new_price`='34.65' WHERE `id` = 8 [ RunTime:0.0004s ]
+
+[ 2017-07-13T14:39:39+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 2,2   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2017-07-13T14:39:39+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2017-07-13T14:39:39+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-07-13T14:39:39+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2017-07-13T14:39:45+08:00 ] ::1 /qmss/index.php/Admin/Product/product_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2017-07-13T14:40:11+08:00 ] ::1 /qmss/index.php/Admin/Product/product_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0044s ]
+SQL: INSERT INTO `tp_product` (`attr`,`pro_name`,`cate`,`price`,`new_price`,`num`,`content`,`image`,`create_time`) VALUES ('{\"das\":[\"da\"]}','dsadsd','3','225','255','55','&lt;p&gt;sadsads&lt;br/&gt;&lt;/p&gt;','[\".\\/Uploads\\/product\\/2017-07-13\\/596715cbc3b92.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/596715cbc5244.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/596715cbc6350.jpg\"]','1499928011') [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:40:12+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2017-07-13T14:40:13+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-07-13T14:40:13+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-07-13T14:40:13+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-07-13T14:40:38+08:00 ] ::1 /qmss/index.php/Admin/Product/product_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2017-07-13T14:41:02+08:00 ] ::1 /qmss/index.php/Admin/Product/product_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0006s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0052s ]
+SQL: INSERT INTO `tp_product` (`attr`,`pro_name`,`cate`,`price`,`new_price`,`num`,`content`,`image`,`create_time`) VALUES ('{\"dsa\":[\"das\"]}','dasdsad','5','55','66','33','&lt;p&gt;dsadsdasd&lt;br/&gt;&lt;/p&gt;','[\".\\/Uploads\\/product\\/2017-07-13\\/596715fe0876f.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/596715fe09e8c.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/596715fe0b1f3.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/596715fe0c339.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/596715fe0d348.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/596715fe1d1dc.jpg\"]','1499928062') [ RunTime:0.0004s ]
+
+[ 2017-07-13T14:41:03+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2017-07-13T14:41:03+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+
+[ 2017-07-13T14:41:03+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-07-13T14:41:03+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2017-07-13T14:41:25+08:00 ] ::1 /qmss/index.php/Admin/Product/product_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2017-07-13T14:41:44+08:00 ] ::1 /qmss/index.php/Admin/Product/product_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.1027s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0013s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0052s ]
+SQL: INSERT INTO `tp_product` (`attr`,`pro_name`,`cate`,`price`,`new_price`,`num`,`content`,`image`,`create_time`) VALUES ('{\"das\":[\"asd\"]}','adsad','4','0','0','0','&lt;p&gt;dasdasd&lt;br/&gt;&lt;/p&gt;','[\".\\/Uploads\\/product\\/2017-07-13\\/5967162852eea.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967162854a8d.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967162855e9e.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/596716285cf4d.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/596716285deb3.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/596716285ed91.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/596716285fcdc.jpg\",\".\\/Uploads\\/product\\/2017-07-13\\/5967162860ec0.jpg\"]','1499928104') [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:41:45+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2017-07-13T14:41:45+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2017-07-13T14:41:45+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+
+[ 2017-07-13T14:41:45+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2017-07-13T14:41:49+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 2,2   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-13T14:41:51+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 4,2   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-13T14:41:53+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 6,2   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:41:54+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 8,2   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-13T14:41:56+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 10,2   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:41:59+08:00 ] ::1 /qmss/index.php/Admin/Product/product_lists/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 8,2   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-13T14:42:33+08:00 ] ::1 /qmss/index.php/Admin/Single/banner_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2017-07-13T14:42:36+08:00 ] ::1 /qmss/index.php/Admin/Single/banner_lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `tp_banner` [ RunTime:0.0382s ]
+SQL: SELECT * FROM `tp_banner`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0048s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2017-07-13T14:42:36+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-07-13T14:42:36+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2017-07-13T14:42:39+08:00 ] ::1 /qmss/index.php/Admin/Single/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2017-07-13T14:42:39+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-07-13T14:42:39+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-07-13T14:42:42+08:00 ] ::1 /qmss/index.php/Admin/Single/message.html?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `tp_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-07-13T14:42:42+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-07-13T14:42:43+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-07-13T14:42:43+08:00 ] ::1 /qmss/index.php/Admin/Single/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-07-13T14:42:48+08:00 ] ::1 /qmss/index.php/Admin/Single/message_delete?id=15&curpage=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0056s ]
+SQL: DELETE FROM `tp_message` WHERE `id` = 15 [ RunTime:0.0004s ]
+
+[ 2017-07-13T14:42:49+08:00 ] ::1 /qmss/index.php/Admin/Single/message/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2017-07-13T14:42:49+08:00 ] ::1 /qmss/index.php/Admin/Single/message/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2017-07-13T14:42:49+08:00 ] ::1 /qmss/index.php/Admin/Single/message/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-07-13T14:42:49+08:00 ] ::1 /qmss/index.php/Admin/Single/message/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+
+[ 2017-07-13T14:42:51+08:00 ] ::1 /qmss/index.php/Admin/Single/message_delete?id=14&curpage=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0059s ]
+SQL: DELETE FROM `tp_message` WHERE `id` = 14 [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:42:52+08:00 ] ::1 /qmss/index.php/Admin/Single/message/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `tp_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2017-07-13T14:42:52+08:00 ] ::1 /qmss/index.php/Admin/Single/message/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2017-07-13T14:42:52+08:00 ] ::1 /qmss/index.php/Admin/Single/message/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-07-13T14:42:52+08:00 ] ::1 /qmss/index.php/Admin/Single/message/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-07-13T14:42:54+08:00 ] ::1 /qmss/index.php/Admin/Single/message_delete?id=13&curpage=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0043s ]
+SQL: DELETE FROM `tp_message` WHERE `id` = 13 [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:42:55+08:00 ] ::1 /qmss/index.php/Admin/Single/message/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `tp_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-07-13T14:42:55+08:00 ] ::1 /qmss/index.php/Admin/Single/message/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-07-13T14:42:55+08:00 ] ::1 /qmss/index.php/Admin/Single/message/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-07-13T14:42:55+08:00 ] ::1 /qmss/index.php/Admin/Single/message/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+
+[ 2017-07-13T14:42:57+08:00 ] ::1 /qmss/index.php/Admin/Single/message_delete?id=12&curpage=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0447s ]
+SQL: DELETE FROM `tp_message` WHERE `id` = 12 [ RunTime:0.0003s ]
+
+[ 2017-07-13T14:42:59+08:00 ] ::1 /qmss/index.php/Admin/Single/message/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `tp_message` ORDER BY time desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2017-07-13T14:42:59+08:00 ] ::1 /qmss/index.php/Admin/Single/message/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-07-13T14:42:59+08:00 ] ::1 /qmss/index.php/Admin/Single/message/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-07-13T14:42:59+08:00 ] ::1 /qmss/index.php/Admin/Single/message/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+

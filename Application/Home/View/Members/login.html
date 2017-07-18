@@ -1,0 +1,46 @@
+<include file="Application/Home/Common/header.html"/>
+<title>用户登录</title>
+<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Common/css/login.css">
+
+
+	<!-- main开始 -->
+	<div class="main">
+		<div class="container">
+			<div class="content">
+				<h2>欢迎登录青木三色</h2>
+				<span class="hidden-xs">公共场所不建议自动登录，以防账号丢失</span>
+				<form action="__URL__/login" method="post" onsubmit="return checkForm()">
+					<label>
+						<i class="login-user"></i>
+						<input type="text" name="user" value="邮箱/手机/用户名" onfocus="if (this.value=='邮箱/手机/用户名') value=''" onblur="if (this.value=='') value='邮箱/手机/用户名'" id="username" data-toggle="popover" data-placement="bottom" data-content="用户名不能为空">
+					</label>
+					<label>
+						<i class="login-lock"></i>
+						<input type="text" name="password" value="密码" onfocus="if (this.value=='密码') value=''" onblur="if (this.value=='') value='密码'" id="password" data-toggle="popover" data-placement="bottom" data-content="密码不能为空">
+					</label>
+					<div class="login-box">
+						<label class="login-auto">
+							<input type="checkbox" name="auto">
+							<span class="auto-login">自动登录</span>
+						</label>
+						<label class="forget-password"><a href="javascript:;">忘记密码</a></label>
+					</div>
+					
+					<label>
+						<button type="submit">登录</button>
+					</label>
+				</form>
+				<p><a href="#">QQ</a>|<a href="#">微信</a></p>
+				<a href="<{:U('Members/create_user')}>">前往注册></a>
+			</div>
+		</div>
+	</div>
+	<!-- main结束 -->
+
+
+
+<include file="Application/Home/Common/footer.html"/>
+<script type="text/javascript" src="__ROOT__/Application/Home/Common/js/login.js"></script>
+<script type="text/javascript">
+	$(".nav-pills li").eq(4).addClass("current");
+</script>

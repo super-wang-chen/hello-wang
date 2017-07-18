@@ -1,0 +1,126 @@
+<include file="Application/Admin/Common/header.html"/>
+<include file="Application/Admin/Common/left_menu.html"/>
+<div class="content-box">
+      <!-- Start Content Box -->
+      <div class="content-box-header">
+        <h3>Content box</h3>
+        <ul class="content-box-tabs">
+            <li><a href="#tab1" class="default-tab">Table</a></li>
+            <!-- href must be unique and match the id of target div -->
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <!-- End .content-box-header -->
+      <div class="content-box-content">
+        <div class="tab-content default-tab" id="tab1">
+              <!-- This is the target div. id must match the href of this div's tab -->
+              <div class="notification attention png_bg"> 
+              <a href="#" class="close"><img src="resources/images/icons/cross_grey_small.png" title="Close this notification" alt="close" />
+              </a>
+              <div> This is a Content Box. You can put whatever you want in it. By the way, you can close this notification with the top-right cross. </div>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  <input class="check-all" type="checkbox" />
+                </th>
+                <th>标题</th>
+                <th>作者</th>
+                <th>时间</th>
+                <th>图片</th>
+                <th>编辑</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <td colspan="6">
+                  <div class="bulk-actions align-left">
+                    <select name="dropdown">
+                      <option value="option1">Choose an action...</option>
+                      <option value="option2">Edit</option>
+                      <option value="option3">Delete</option>
+                    </select>
+                    <a class="button" href="#">Apply to selected</a> 
+                  </div>
+                  <div class="pagination"> 
+                      <{$show}>
+                  </div>
+                  <!-- End .pagination -->
+                  <div class="clear"></div>
+                </td>
+              </tr>
+            </tfoot>
+            <tbody>
+            <volist name="data" id="vo">
+              <tr>
+                <td>
+                  <input type="checkbox" />
+                </td>
+                <td><{$vo.title}></td>
+                <td><{$vo.author}></td>
+                <td><{$vo.create_time}></td>
+                
+                <td><img src="__ROOT__/<{$vo.image}>" style="height:100px;width: 100px"/></td>
+                <td>
+                  <!-- Icons -->
+                  <a href="__URL__/news_update?id=<{$vo.id}>&curpage=<{$curpage}>" title="Edit">
+                  <img src="__ROOT__/Application/Admin/Common/resources/images/icons/pencil.png" alt="Edit" /></a> 
+                  <a href="__URL__/news_delete?id=<{$vo.id}>&curpage=<{$curpage}>" title="Delete">
+                  <img src="__ROOT__/Application/Admin/Common/resources/images/icons/cross.png" alt="Delete" /></a> 
+                  <a href="#" title="Edit Meta">
+                  <img src="__ROOT__/Application/Admin/Common/resources/images/icons/hammer_screwdriver.png" alt="Edit Meta" /></a> 
+                </td>
+              </tr>
+            </volist>
+            </tbody>
+          </table>
+        </div>
+        <!-- End #tab1 -->
+      </div>
+      <!-- End .content-box-content -->
+    </div>
+    <!-- End .content-box -->
+<include file="Application/Admin/Common/footer.html"/>
+<script type="text/javascript">
+  $(function(){
+    $(".news").addClass("current");
+    $(".news_lists").addClass("current");
+    $(".pagination a").live('click',function(){
+      //alert(1);
+      var url = $(this).attr('href');
+      $.ajax({
+        type:"GET",
+        url:url,
+        dataType:"json",
+        success:function(msg){
+          var show = msg.show;
+          var curpage = msg.curpage;
+          var str = "";
+          for(var i=0;i<msg.lists.length;i++){
+            str+='<tr>';
+            str+='<td>';
+            str+='<input type="checkbox" />';
+            str+='</td>';
+            str+='<td>'+msg.lists[i]["title"]+'</td>';
+            str+='<td>'+msg.lists[i]["author"]+'</td>';
+            str+='<td>'+msg.lists[i]["create_time"]+'</td>';
+            str+='<td><img src="__ROOT__/'+msg.lists[i]["image"]+'" style="height:100px;width: 100px"/></td>';
+            str+='<td>';
+            str+='<a href="__URL__/news_update?id='+msg.lists[i]["id"]+'&curpage='+curpage+'" title="Edit">';
+            str+='<img src="__ROOT__/Application/Admin/Common/resources/images/icons/pencil.png" alt="Edit" /></a>' ;
+            str+='<a href="__URL__/news_delete?id='+msg.lists[i]["id"]+'&curpage='+curpage+'" title="Delete">';
+            str+='<img src="__ROOT__/Application/Admin/Common/resources/images/icons/cross.png" alt="Delete" /></a>' ;
+            str+='<a href="#" title="Edit Meta">';
+            str+='<img src="__ROOT__/Application/Admin/Common/resources/images/icons/hammer_screwdriver.png" alt="Edit Meta" /></a>' ;
+            str+='</td>';
+            str+='</tr>';
+          }
+          $("tbody").html(str);
+          $(".pagination").html(show);
+        }
+      })
+      return false;
+    })
+  })
+</script>

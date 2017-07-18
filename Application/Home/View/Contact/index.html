@@ -1,0 +1,61 @@
+<include file="Application/Home/Common/header.html"/>
+<title>联系我们</title>
+<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Common/css/contact_us.css">
+
+<!-- main开始 -->
+	<div class="main">
+		<div class="container">
+			<h2>联系我们</h2>
+			<h3>Contact us</h3>
+			<p>当前位置：<a href="<{:U('Index/index')}>">首页</a>><span>联系我们</span></p>
+			<div class="content">
+				<div class="map">
+					<iframe src="__ROOT__/Application/Home/Common/map.html" frameborder="0" scrolling="no"></iframe>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-md-6 col-lg-6 information">
+						<p><span>网址：<{$data.url}></span><span>电话：<{$data.phone}></span></p>
+						<p><span>QQ：<{$data.qq}></span><span>邮箱：<{$data.email}></span></p>
+						<p>地址：<{$data.address}></p>
+						<ul class="hidden-xs">
+							<li>
+								<span>青木三色官方微信</span><br/>
+								<img src="__ROOT__/<{$data.official_image}>" style="height: 114px; width: 114px"  />
+							</li>
+							<li>
+								<span>客服微信</span><br/>
+								<img src="__ROOT__/<{$data.service_image}>" style="height: 114px; width: 114px"  />
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-6 message">
+						<form action="__URL__/index" method="post" >
+							<label>
+								<input class="name" type="text" name="" value="请输入您的姓名" onfocus="if (this.value=='请输入您的姓名') value=''" onblur="if (this.value=='') value='请输入您的姓名'" id="username" data-toggle="popover" data-placement="bottom" data-content="用户名不能为空">
+								<input class="phone" type="text" name="" value="请输入您的手机" onfocus="if (this.value=='请输入您的手机') value=''" onblur="if (this.value=='') value='请输入您的手机'" id="phone" data-toggle="popover" data-placement="bottom" data-content="手机号不能为空">
+							</label>
+							<label>
+								<textarea id="message" data-toggle="popover" data-placement="bottom" data-content="留言不能为空">请输入您想对我们说的话...</textarea>
+							</label>
+							<label>
+								<input class="validatebox" type="" name="" maxlength="5" value="请输入验证码" onfocus="if (this.value=='请输入验证码') value=''" onblur="if (this.value=='') value='请输入验证码'" id="verify" data-toggle="popover" data-placement="top" data-content="验证码不能为空">
+								<img style="cursor:pointer; width: 130px;height: 40px;" class="img"  src="__URL__/ver" onClick="this.src=this.src+'?'+Math.random();" title="看不清楚?点击刷新验证码?">
+							</label>
+							<label>
+								<button type="submit">提交</button>
+								<button type="reset">重置</button>
+							</label>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- main结束 -->
+	
+
+<include file="Application/Home/Common/footer.html"/>
+<script type="text/javascript" src='__ROOT__/Application/Home/Common/js/contact_us.js'></script>
+<script type="text/javascript">
+	$(".nav-pills li").eq(5).addClass("current");
+</script>

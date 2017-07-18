@@ -1,0 +1,134 @@
+<include file="Application/Home/Common/header.html"/>
+<title>收货地址</title>
+<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Common/css/address.css">
+
+
+	<!-- main开始 -->
+	<div class="main">
+		<div class="container">
+			<p class="hidden-xs">当前位置：<a href="<{:U('Index/index')}>">首页</a>><a href="<{:U('Shopping/center')}>">会员中心</a>><span>收货地址</span></p>
+			<div class="content">
+				<div class="row">
+					<div class="col-sm-3 col-md-3 col-lg-3 hidden-xs">
+						<div class="order-subnav">
+							<h3>会员中心</h3>
+							<dl>
+								<dt><i class="order-user"></i>个人中心</dt>
+								<dd><a href="center">基本资料</a></dd>
+								<!-- <dd><a href="javascript:;">修改资料</a></dd> -->
+								<!-- <dd><a href="<{:U('Shopping/center')}>">我的收藏</a></dd> -->
+								<!-- <dd><a href="javascript:;">历史记录</a></dd> -->
+								
+								<dt><i class="order-form"></i>订单中心</dt>
+								<dd><a href="order_lists.html?p=1" class="cur">我的订单</a></dd>
+								<!-- <dd><a href="javascript:;">取消订单</a></dd>
+								<dd><a href="javascript:;">我的评价</a></dd> -->
+								<dd><a href="address.html">收货地址</a></dd>
+								
+								<!-- <dt><i class="order-wallet"></i>我的钱包</dt>
+								<dd><a href="javascript:;">我的余额</a></dd>
+								<dd><a href="javascript:;">优惠券</a></dd>
+								<dd><a href="javascript:;">我的评价</a></dd>
+								<dd><a href="javascript:;">我的积分</a></dd>
+								
+								<dt><i class="order-safe"></i>安全中心</dt>
+								<dd><a href="javascript:;">修改密码</a></dd>
+								<dd><a href="javascript:;">绑定手机</a></dd>
+								<dd><a href="javascript:;">密保问题</a></dd> -->
+								
+							</dl>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 order-content">
+						<a href="javascript:;"><i></i>添加收货地址</a>
+						<form class="hidden-xs" action="__URL__/address" method="post">
+							<label>
+								<span>收件人：</span>
+								<input type="text" value="输入收件人姓名" onfocus="if (this.value=='输入收件人姓名') value=''" onblur="if (this.value=='') value='输入收件人姓名'" id="username" data-toggle="popover" data-placement="bottom" data-content="用户名不能为空" name="name">
+							</label>
+							<label>
+								<span>地址：</span>
+								<select name="province3" id="province" data-toggle="popover" data-placement="bottom" data-content="请选择省份">
+								</select>
+								<select name="city3" id="city"
+								data-toggle="popover" data-placement="bottom" data-content="请选择市">
+								</select>
+								<select name="area3" id="area" data-toggle="popover" data-placement="bottom" data-content="请选择区">
+									
+								</select>
+							</label>
+							<label>
+								<span>详细地址：</span>
+								<textarea id="street" data-toggle="popover" data-placement="bottom" data-content="输入街道或小区名称" name="addr">输入街道或小区名称</textarea>
+							</label>
+							<label>
+								<span>联系方式：</span>
+								<input type="text" value="输入电话号码" onfocus="if (this.value=='输入电话号码') value=''" onblur="if (this.value=='') value='输入电话号码'" id="phone" data-toggle="popover" data-placement="bottom" data-content="手机号不能为空" name="phone">
+							</label>
+							<label class="def-address">
+								<input type="checkbox" name="check">
+								<p>设为默认地址</p>
+							</label>
+							<label>
+								<span></span>
+								<button type="submit" class="selected">保存</button>
+								<button type="reset">取消</button>
+							</label>
+						</form>
+						<div class="address row" name="__URL__/address_del">
+						<volist name="data" id="vo">
+							<if condition="$vo.id eq $addr">
+								<div class="address-info default col-xs-12 col-sm-5 col-md-5 col-lg-5" name="<{$vo.id}>">
+									<span>默认地址</span>
+									<p><{$vo.name}>   收</p>
+									<p><{$vo.phone}></p>
+									<p><{$vo.address}></p>
+									<button type="button" class="delete" name="<{$vo.id}>">删除</button>
+									<i></i>
+								</div>
+							<else />
+								<div class="address-info col-xs-12 col-sm-5 col-md-5 col-lg-5" name="<{$vo.id}>">
+									<span>默认地址</span>
+									<p><{$vo.name}>   收</p>
+									<p><{$vo.phone}></p>
+									<p><{$vo.address}></p>
+									<button type="button" class="delete" name="<{$vo.id}>">删除</button>
+									<i></i>
+								</div>
+							</if>
+						</volist>
+							<!-- <div class="address-info default col-xs-12 col-sm-5 col-md-5 col-lg-5">
+								<span>默认地址</span>
+								<p>六娃   收</p>
+								<p>12580112110</p>
+								<p>广东省   广州市   白云区中山大道东213号</p>
+								<button type="button" class="delete">删除</button>
+								<button type="button" class="change">修改</button>
+								<i></i>
+							</div>
+							<div class="address-info col-xs-12 col-sm-5 col-md-5 col-lg-5">
+								<span>默认地址</span>
+								<p>六娃   收</p>
+								<p>12580112110</p>
+								<p>广东省   广州市   白云区中山大道东213号</p>
+								<button type="button" class="delete">删除</button>
+								<button type="button" class="change">修改</button>
+								<i></i>
+							</div> -->
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- main结束 -->
+
+<include file="Application/Home/Common/footer.html"/>
+<script type="text/javascript" src='__ROOT__/Application/Home/Common/js/address.js'></script>
+<script type="text/javascript" src='__ROOT__/Application/Home/Common/js/PCASClass.js'></script>
+<script type="text/javascript">
+	//实例化地区多久联动效果
+	$(".nav-pills li").eq(4).addClass("current");
+    new PCAS("province3","city3","area3");
+</script>

@@ -1,0 +1,87 @@
+<include file="Application/Home/Common/header.html"/>
+<title>新闻中心</title>
+<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Common/css/news.css">
+
+	<!-- main开始 -->
+	<div class="main">
+		<div class="container">
+			<h2>新闻中心</h2>
+			<h3>News center</h3>
+			<p>当前位置：<a href="<{:U('Index/index')}>">首页</a>><span>新闻中心</span></p>
+			<div class="content">
+				<ul>
+					<volist name="data" id="vo" >
+					<li class="row">
+						<div class="col-md-4 col-lg-4 con-image" style="background: rgba(0, 0, 0, 0) url('__ROOT__/<{$vo.image}>') no-repeat  scroll 0 0;background-size:100% 100%;
+    height: 250px;"><a href="__URL__/news_details?id=<{$vo.id}>"></a></div>
+						<div class="col-md-8 col-lg-8 con-text">
+							<h4><a href="__URL__/news_details?id=<{$vo.id}>"><{$vo.title}></a></h4>
+							<p><{$vo.content|mb_substr=0,150,utf8}></p>
+							<span><{$vo.create_time}></span>
+							<a href="__URL__/news_details?id=<{$vo.id}>">查看详情>></a>
+						</div>
+					</li>
+					</volist>
+				</ul>
+				<div aria-label="Page navigation" class='page'>
+				 <{$show}>
+				    <!-- <ul>
+					    <li>
+					        <a href="#" aria-label="Previous">
+					        	<span aria-hidden="true">上一页</span>
+					        </a>
+					    </li>
+					    <li class="active"><a href="#">1</a></li>
+					    <li><a href="#">2</a></li>
+					    <li><a href="#">3</a></li>
+					    <li><a href="#">...</a></li>
+					    <li>
+					        <a href="#" aria-label="Next">
+					        	<span aria-hidden="true">下一页</span>
+					        </a>
+					    </li>
+				    </ul> -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- main结束 -->
+
+
+
+<include file="Application/Home/Common/footer.html"/>
+<script type="text/javascript" src="__ROOT__/Application/Home/Common/js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript">
+$(".nav-pills li").eq(3).addClass("current");
+  $(function(){
+    $(".page div a").live('click',function(){
+      //alert(1);
+      var url = $(this).attr('href');
+      $.ajax({
+        type:"GET",
+        url:url,
+        dataType:"json",
+        success:function(msg){
+          var show = msg.show;
+          var str = "";
+          for(var i=0;i<msg.lists.length;i++){
+          	str+='<li class="row">';
+          	str+='<div class="col-md-4 col-lg-4 con-image" style="background: rgba(0, 0, 0, 0) ';
+          	str+="url('__ROOT__/"+msg.lists[i]['image']+"') no-repeat  scroll 0 0;background-size:100% 100%;";
+          	str+='height: 250px;"><a href="__URL__/news_details?id='+msg.lists[i]["id"]+'"></a></div>';
+            str+='<div class="col-md-8 col-lg-8 con-text">';
+			str+='<h4><a href="__URL__/news_details?id='+msg.lists[i]["id"]+'">'+msg.lists[i]["title"]+'</a></h4>';
+			str+='<p>'+msg.lists[i]["content"].substr(0,150)+'</p>';
+			str+='<span>'+msg.lists[i]["create_time"]+'</span>';
+			str+='<a href="__URL__/news_details?id='+msg.lists[i]["id"]+'">查看详情>></a>';
+			str+='</div>';
+			str+='</li>';
+          }
+          $(".content ul").html(str);
+          $(".page").html(show);
+        }
+      })
+      return false;
+    })
+  })
+</script>

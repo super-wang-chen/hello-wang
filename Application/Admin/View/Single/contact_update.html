@@ -1,0 +1,99 @@
+<include file="Application/Admin/Common/header.html"/>
+<include file="Application/Admin/Common/left_menu.html"/>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/uedit/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/uedit/ueditor.all.min.js"> </script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/uedit/lang/zh-cn/zh-cn.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Validform/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Validform/Validform_v5.3.2_min.js"></script>
+<div class="content-box">
+      <!-- Start Content Box -->
+      <div class="content-box-header">
+        <h3>Content box</h3>
+        <ul class="content-box-tabs">
+            <li><a href="#tab1" >Table</a></li>
+            <!-- href must be unique and match the id of target div -->
+            <li><a href="#tab2" class="default-tab">Forms</a></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <!-- End .content-box-header -->
+      <div class="content-box-content">
+        <div class="tab-content default-tab" id="tab2">
+          <form action="__URL__/contact_update" method="post" enctype="multipart/form-data" class="demoform" >
+            <fieldset>
+            <p>
+              <label>网址</label>
+              <input class="text-input medium-input datepicker" type="text" id="medium-input" name="url" nullmsg="网址不能为空！" datatype="url"  errormsg="网址格式不正确" value="<{$data.url}>" />
+            </p>
+            <p>
+              <label>电话</label>
+              <input class="text-input medium-input datepicker" type="text" id="medium-input" name="phone" nullmsg="电话不能为空！" datatype="*" value="<{$data.phone}>" />
+            </p>
+            <p>
+              <label>QQ</label>
+              <input class="text-input medium-input datepicker" type="text" id="medium-input" name="qq" nullmsg="QQ不能为空！" datatype="n6-20" value="<{$data.qq}>" />
+            </p>
+            <p>
+              <label>邮箱</label>
+              <input class="text-input medium-input datepicker" type="text" id="medium-input" name="email" nullmsg="邮箱不能为空！" datatype="e" errormsg="邮箱格式不正确" value="<{$data.email}>" />
+            </p>
+            <p>
+              <label>地址</label>
+              <input class="text-input medium-input datepicker" type="text" id="medium-input" name="address" nullmsg="地址不能为空！" datatype="*" value="<{$data.address}>" />
+            </p>
+            <p>
+              <label>官方微信二维码</label>
+              <input type="file" name="official_image" class="official_image" />
+              <img src="__ROOT__/<{$data.official_image}>" class="myimg1" style="height: 114px; width: 114px" />
+            </p>
+            <p>
+              <label>客服微信二维码</label>
+              <input type="file" name="service_image" class="service_image" />
+              <img src="__ROOT__/<{$data.service_image}>" class="myimg2" style="height: 114px; width: 114px" />
+            </p>
+            
+            <p>
+              <input class="button" type="submit" value="提交" />
+            </p>
+            </fieldset>
+            <div class="clear"></div>
+            <!-- End .clear -->
+          </form>
+        </div>
+        <!-- End #tab2 -->
+      </div>
+      <!-- End .content-box-content -->
+    </div>
+    <!-- End .content-box -->
+
+<include file="Application/Admin/Common/footer.html"/>
+<script type="text/javascript">
+   $(".demoform").Validform();
+   $(".single").addClass("current");
+    $(".contact").addClass("current");
+    $(".official_image").change(function(){
+        var file=this.files[0];
+        if (window.FileReader) {    
+            var reader = new FileReader();    
+            reader.readAsDataURL(file);    
+            //监听文件读取结束后事件    
+          reader.onloadend = function (e) {
+            $(".myimg1").attr("src",e.target.result);    //e.target.result就是最后的路径地址
+            };   
+       }
+    })
+
+    $(".service_image").change(function(){
+        var file=this.files[0];
+        if (window.FileReader) {    
+            var reader = new FileReader();    
+            reader.readAsDataURL(file);    
+            //监听文件读取结束后事件    
+          reader.onloadend = function (e) {
+            $(".myimg2").attr("src",e.target.result);    //e.target.result就是最后的路径地址
+            };   
+       }
+    })
+   
+  
+</script>

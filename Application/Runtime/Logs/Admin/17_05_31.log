@@ -1,0 +1,2454 @@
+[ 2017-05-31T14:01:46+08:00 ] 127.0.0.1 /qmss/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-31T14:01:47+08:00 ] 127.0.0.1 /qmss/index.php/Admin/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:01:47+08:00 ] 127.0.0.1 /qmss/index.php/Admin/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:10:57+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/banner_lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_banner` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_banner`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0130s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pro_name` FROM `tp_product` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:10:57+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T14:10:57+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T14:11:14+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 163 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:11:30+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 163 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:14:40+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 163 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 168 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:15:20+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 163 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 168 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:16:19+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 163 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 168 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-31T14:19:22+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 163 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 168 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-31T14:19:40+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 163 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 168 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:19:46+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 163 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 168 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:20:16+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 163 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 168 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:21:18+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 163 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 168 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T14:23:26+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 163 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 168 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-31T14:23:30+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 163 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 168 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:23:54+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 163 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 168 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-31T14:25:20+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 163 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 168 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:30:47+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:41:47+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:42:20+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:42:27+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:54:46+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(): Invalid argument D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 106 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 230 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:55:08+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(): Invalid argument D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 106 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 230 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] unlink(): Invalid argument D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 117 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 230 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:56:24+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(): Invalid argument D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 106 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 230 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] unlink(): Invalid argument D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 117 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 230 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+SQL: UPDATE `tp_contact` SET `id`='1',`url`='',`phone`='',`qq`='',`email`='',`address`='',`official_image`='./Uploads/',`service_image`='./Uploads/' WHERE ( id=1 ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:56:26+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:57:52+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T14:57:55+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Uploads/): Permission denied D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 106 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 230 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] unlink(./Uploads/): Permission denied D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 117 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 230 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+SQL: UPDATE `tp_contact` SET `id`='1',`url`='https://www.baidu.com/index.php?tn=monline_3_dg',`phone`='23421345',`qq`='3432352',`email`='dgdf@163.com',`address`='fghgfjhjgkj',`official_image`='./Uploads/',`service_image`='./Uploads/' WHERE ( id=1 ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:58:41+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Uploads/): Permission denied D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 106 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] unlink(./Uploads/): Permission denied D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 117 行.
+SQL: UPDATE `tp_contact` SET `id`='1',`url`='https://www.baidu.com/index.php?tn=monline_3_dg',`phone`='23421345',`qq`='3432352',`email`='dgdf@163.com',`address`='fghgfjhjgkj',`official_image`='./Uploads/contact/2017-05-31/592e69a17296b.jpg',`service_image`='./Uploads/' WHERE ( id=1 ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:59:09+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:59:15+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `tp_contact` SET `id`='1',`url`='',`phone`='',`qq`='',`email`='',`address`='',`official_image`='./Uploads/contact/2017-05-31/592e69c37c18e.jpg',`service_image`='./Uploads/' WHERE ( id=1 ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T14:59:33+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Uploads/contact/2017-05-31/592e69c37c18e.jpg): No such file or directory D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 106 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `tp_contact` SET `id`='1',`url`='',`phone`='',`qq`='',`email`='',`address`='',`official_image`='./Uploads/contact/2017-05-31/592e69d51d20d.jpg',`service_image`='./Uploads/' WHERE ( id=1 ) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T14:59:48+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Uploads/): Permission denied D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 117 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `tp_contact` SET `id`='1',`url`='',`phone`='',`qq`='',`email`='',`address`='',`official_image`='./Uploads/contact/2017-05-31/592e69d51d20d.jpg',`service_image`='./Uploads/contact/2017-05-31/592e69e47441b.jpg' WHERE ( id=1 ) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:00:11+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Uploads/contact/2017-05-31/592e69d51d20d.jpg): No such file or directory D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 106 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] unlink(./Uploads/contact/2017-05-31/592e69e47441b.jpg): No such file or directory D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 117 行.
+SQL: UPDATE `tp_contact` SET `id`='1',`url`='',`phone`='',`qq`='',`email`='',`address`='',`official_image`='./Uploads/contact/2017-05-31/592e69fb75cc7.jpg',`service_image`='./Uploads/' WHERE ( id=1 ) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:02:47+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:02:59+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Uploads/contact/2017-05-31/592e69fb75cc7.jpg): No such file or directory D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 112 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 230 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] unlink(./Uploads/): Permission denied D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 118 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 230 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+SQL: UPDATE `tp_contact` SET `id`='1',`url`='',`phone`='',`qq`='',`email`='',`address`='',`official_image`='./Uploads/',`service_image`='./Uploads/' WHERE ( id=1 ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:03:39+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:03:48+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Uploads/): Permission denied D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 112 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: official_image D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 115 行.
+NOTIC: [8] Undefined index: official_image D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 115 行.
+NOTIC: [2] unlink(./Uploads/): Permission denied D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 118 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: service_image D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 121 行.
+NOTIC: [8] Undefined index: service_image D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 121 行.
+SQL: UPDATE `tp_contact` SET `id`='1',`url`='',`phone`='',`qq`='',`email`='',`address`='',`official_image`='./Uploads/',`service_image`='./Uploads/' WHERE ( id=1 ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:04:49+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:04:58+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Uploads/): Permission denied D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 112 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-05-31T15:06:02+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Uploads/): Permission denied D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 112 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] unlink(./Uploads/): Permission denied D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 118 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `tp_contact` SET `id`='1',`url`='',`phone`='',`qq`='',`email`='',`address`='',`official_image`='./Uploads/contact/2017-05-31/592e6b5a3694c.jpg',`service_image`='./Uploads/contact/2017-05-31/592e6b5a39c15.jpg' WHERE ( id=1 ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T15:06:05+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T15:06:24+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Uploads/contact/2017-05-31/592e6b5a3694c.jpg): No such file or directory D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 112 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] unlink(./Uploads/contact/2017-05-31/592e6b5a39c15.jpg): No such file or directory D:\phpStudy\WWW\qmss\Application\Admin\Controller\SingleController.class.php 第 118 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `tp_contact` SET `id`='1',`url`='',`phone`='',`qq`='',`email`='',`address`='',`official_image`='./Uploads/contact/2017-05-31/592e6b70c6738.jpg',`service_image`='./Uploads/contact/2017-05-31/592e6b70c9619.jpg' WHERE ( id=1 ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:06:43+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `tp_contact` SET `id`='1',`url`='',`phone`='',`qq`='',`email`='',`address`='',`official_image`='./Uploads/contact/2017-05-31/592e6b833477d.jpg',`service_image`='./Uploads/contact/2017-05-31/592e6b70c9619.jpg' WHERE ( id=1 ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:07:12+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T15:08:48+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `tp_contact` SET `id`='1',`url`='http://www.qm3s.com',`phone`='0592-5966253',`qq`='2024594934',`email`='2024594934@qq.com',`address`='厦门市湖里区华昌路132号华美空间文创园C1楼7A单元',`official_image`='./Uploads/contact/2017-05-31/592e6c00e6014.jpg',`service_image`='./Uploads/contact/2017-05-31/592e6c00e96c5.jpg' WHERE ( id=1 ) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 183 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\qmss\Application\Runtime\Cache\Admin\23ea0f0c75c8836c6d8cfcd3b9a4318a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:11:06+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `tp_contact` SET `id`='1',`url`='http://www.qm3s.com',`phone`='0592-5966253',`qq`='2024594934',`email`='2024594934@qq.com',`address`='厦门市湖里区华昌路132号华美空间文创园C1楼7A单元',`official_image`='./Uploads/contact/2017-05-31/592e6c8a3a951.jpg',`service_image`='./Uploads/contact/2017-05-31/592e6c8a3e7d2.jpg' WHERE ( id=1 ) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T15:18:50+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `tp_contact` SET `id`='1',`url`='http://www.qm3s.com',`phone`='0592-5966253',`qq`='2024594934',`email`='2024594934@qq.com',`address`='厦门市湖里区华昌路132号华美空间文创园C1楼7A单元',`official_image`='./Uploads/contact/2017-05-31/592e6e5a2190f.jpg',`service_image`='./Uploads/contact/2017-05-31/592e6e5a253a7.jpg' WHERE ( id=1 ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T15:18:53+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:18:53+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T15:18:53+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:19:52+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T15:19:52+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T15:19:52+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:21:13+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:21:13+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:21:13+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:21:19+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:21:47+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T15:21:47+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:21:47+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T15:21:50+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T15:22:12+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_contact` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_contact` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:22:12+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T15:22:12+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T16:53:36+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/news_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-31T16:54:35+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/news_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0120s ]
+SQL: INSERT INTO `tp_news` (`title`,`author`,`create_time`,`content`,`image`) VALUES ('啪啪啪啪啪啪啪啪啪啪啪','品牌','1496220875','&lt;p&gt;pppppppppppppppppppppppppppppppppp&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170531/1496220841213007.jpg&quot; title=&quot;1496220841213007.jpg&quot; alt=&quot;gamersky_09small_18_20175141132B36.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;ppppppppppppppp&lt;br/&gt;&lt;/p&gt;','[\".\\/Uploads\\/news\\/2017-05-31\\/592e84cb9bc9e.jpg\",\".\\/Uploads\\/news\\/2017-05-31\\/592e84cb9fb1f.jpg\"]') [ RunTime:0.0010s ]
+
+[ 2017-05-31T16:54:36+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T16:54:36+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T16:54:36+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T16:54:36+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T16:54:39+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/news_update?id=13&curpage=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_news` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T16:54:51+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/news_update?id=13&curpage=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_news` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:01:46+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/news_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:02:11+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/news_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\qmss\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0110s ]
+SQL: INSERT INTO `tp_news` (`title`,`author`,`create_time`,`content`,`image`) VALUES ('qqqqqqq','qqqqq','1496221331','<p>qqqqqqq</p><p><img src=\"/ueditor/php/upload/image/20170531/1496221326121711.jpg\" title=\"1496221326121711.jpg\" alt=\"gamersky_13small_26_201751411328DE.jpg\"/></p><p>qqqqqq<br/></p>','[\".\\/Uploads\\/news\\/2017-05-31\\/592e869391cc6.jpg\",\".\\/Uploads\\/news\\/2017-05-31\\/592e869394ba6.jpg\"]') [ RunTime:0.0000s ]
+
+[ 2017-05-31T17:02:11+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-31T17:02:11+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:02:12+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:02:12+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:08:20+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/news_update?id=13&curpage=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tp_news` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:08:25+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/news_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\qmss\Application\Admin\Controller\NewsController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tp_news` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0140s ]
+SQL: UPDATE `tp_news` SET `id`='13',`title`='啪啪啪啪啪啪啪啪啪啪啪',`author`='品牌',`content`='&lt;p&gt;pppppppppppppppppppppppppppppppppp&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170531/1496220841213007.jpg&quot; title=&quot;1496220841213007.jpg&quot; alt=&quot;gamersky_09small_18_20175141132B36.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;ppppppppppppppp&lt;br/&gt;&lt;/p&gt;',`create_time`='1496220875' WHERE `id` = 13 [ RunTime:0.0000s ]
+
+[ 2017-05-31T17:08:25+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:08:25+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:08:26+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:08:26+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:09:53+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:09:53+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:09:53+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:09:53+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:09:55+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/news_update?id=13&curpage=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_news` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:09:58+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/news_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\qmss\Application\Admin\Controller\NewsController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_news` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0130s ]
+SQL: UPDATE `tp_news` SET `id`='13',`title`='啪啪啪啪啪啪啪啪啪啪啪',`author`='品牌',`content`='<p>pppppppppppppppppppppppppppppppppp</p><p><img src=\"/ueditor/php/upload/image/20170531/1496220841213007.jpg\" title=\"1496220841213007.jpg\" alt=\"gamersky_09small_18_20175141132B36.jpg\"/></p><p>ppppppppppppppp<br/></p>',`create_time`='1496220875' WHERE `id` = 13 [ RunTime:0.0000s ]
+
+[ 2017-05-31T17:09:59+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:09:59+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:09:59+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:09:59+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:10:02+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 2,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-31T17:10:04+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/news_update?id=12&curpage=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_news` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:10:08+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/news_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\qmss\Application\Admin\Controller\NewsController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_news` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0120s ]
+SQL: UPDATE `tp_news` SET `id`='12',`title`='水电费',`author`='aaa',`content`='<p>大企业忙于品牌建设，小企业忙于眼前利益的争夺
+
+品牌是企业的灵魂和存在与发展的核心动力。消费者对品牌的认同，意味着企业可以花费较少的成本让产品和服务具有更强的竞争力，从而获得更大的市场占有率。
+
+对那些有能力进行大张旗鼓的品牌建设的企业而言，品牌建设的基础是文化，核心是产品设计，从而提供蕴含企业独特文化符号的产品，用品牌产生的联动效应促使企业的效益目标达成。而品牌建设的具体落地措施，各个企业的操作形式也各不相同。比如作为缝制设备行业的龙头企业上海和鹰科技，除了常规的品牌建设途径之外，近期正在组织“游日本，赏樱花”的1500人旅行团，用近一周的时间遍游大阪、长崎等地，以一场视觉盛宴，打响2016年新年品牌建设第一役。表面上看，似乎仅仅是“游山玩水”，实际上也起到了拓展合作伙伴、员工的视野，从而增强对那些有能力进行大张旗鼓的品牌建设的企业而言，品牌建设的基础是文化，核心是产品设计，从而提供蕴含企业独特文化符号的产品，用品牌产生的联动效应促使企业的效益目标达成。而品牌建设的具体落地措施，各个企业的操作形式也各不相同。比如作为缝制设备行业的龙头企业上海和鹰科技，除了常规的品牌建设途径之外，近期正在组织“游日本，赏樱花”的1500人旅行团，用近一周的时间遍游大阪、长崎等地，以一场视觉盛宴，打响2016年新年品牌建设第一役。表面上看，似乎仅仅是“游山玩水”，实际上也起到了拓展合作伙伴、员工的视野，从而增强对那些有能力进行大张旗鼓的品牌建设的企业而言，品牌建设的基础是文化，核心是产品设计，从而提供蕴含企业独特文化符号的产品，用品牌产生的联动效应促使企业的效益目标达成。而品牌建设的具体落地措施，各个企业的操作形式也各不相同。比如作为缝制设备行业的龙头企业上海和鹰科技，除了常规的品牌建设途径之外，近期正在组织“游日本，赏樱花”的1500人旅行团，用近一周的时间遍游大阪、长崎等地，以一场视觉盛宴，打响2016年新年品牌建设第一役。表面上看，似乎仅仅是“游山玩水”，实际上也起到了拓展合作伙伴、员工的视野，从而增强对那些有能力进行大张旗鼓的品牌建设的企业而言，品牌建设的基础是文化，核心是产品设计，从而提供蕴含企业独特文化符号的产品，用品牌产生的联动效应促使企业的效益目标达成。而品牌建设的具体落地措施，各个企业的操作形式也各不相同。比如作为缝制设备行业的龙头企业上海和鹰科技，除了常规的品牌建设途径之外，近期正在组织“游日本，赏樱花”的1500人旅行团，用近一周的时间遍游大阪、长崎等地，以一场视觉盛宴，打响2016年新年品牌建设第一役。表面上看，似乎仅仅是“游山玩水”，实际上也起到了拓展合作伙伴、员工的视野，从而增强;</p>',`create_time`='1495766238' WHERE `id` = 12 [ RunTime:0.0000s ]
+
+[ 2017-05-31T17:10:08+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 2,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:10:08+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:10:08+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:10:08+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:10:10+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/news_update?id=11&curpage=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tp_news` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:10:13+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/news_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\qmss\Application\Admin\Controller\NewsController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_news` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0120s ]
+SQL: UPDATE `tp_news` SET `id`='11',`title`='vvvvvvvv',`author`='vvv',`content`='<p>大企业忙于品牌建设，小企业忙于眼前利益的争夺
+
+品牌是企业的灵魂和存在与发展的核心动力。消费者对品牌的认同，意味着企业可以花费较少的成本让产品和服务具有更强的竞争力，从而获得更大的市场占有率。
+
+对那些有能力进行大张旗鼓的品牌建设的企业而言，品牌建设的基础是文化，核心是产品设计，从而提供蕴含企业独特文化符号的产品，用品牌产生的联动效应促使企业的效益目标达成。而品牌建设的具体落地措施，各个企业的操作形式也各不相同。比如作为缝制设备行业的龙头企业上海和鹰科技，除了常规的品牌建设途径之外，近期正在组织“游日本，赏樱花”的1500人旅行团，用近一周的时间遍游大阪、长崎等地，以一场视觉盛宴，打响2016年新年品牌建设第一役。表面上看，似乎仅仅是“游山玩水”，实际上也起到了拓展合作伙伴、员工的视野，从而增强对那些有能力进行大张旗鼓的品牌建设的企业而言，品牌建设的基础是文化，核心是产品设计，从而提供蕴含企业独特文化符号的产品，用品牌产生的联动效应促使企业的效益目标达成。而品牌建设的具体落地措施，各个企业的操作形式也各不相同。比如作为缝制设备行业的龙头企业上海和鹰科技，除了常规的品牌建设途径之外，近期正在组织“游日本，赏樱花”的1500人旅行团，用近一周的时间遍游大阪、长崎等地，以一场视觉盛宴，打响2016年新年品牌建设第一役。表面上看，似乎仅仅是“游山玩水”，实际上也起到了拓展合作伙伴、员工的视野，从而增强对那些有能力进行大张旗鼓的品牌建设的企业而言，品牌建设的基础是文化，核心是产品设计，从而提供蕴含企业独特文化符号的产品，用品牌产生的联动效应促使企业的效益目标达成。而品牌建设的具体落地措施，各个企业的操作形式也各不相同。比如作为缝制设备行业的龙头企业上海和鹰科技，除了常规的品牌建设途径之外，近期正在组织“游日本，赏樱花”的1500人旅行团，用近一周的时间遍游大阪、长崎等地，以一场视觉盛宴，打响2016年新年品牌建设第一役。表面上看，似乎仅仅是“游山玩水”，实际上也起到了拓展合作伙伴、员工的视野，从而增强对那些有能力进行大张旗鼓的品牌建设的企业而言，品牌建设的基础是文化，核心是产品设计，从而提供蕴含企业独特文化符号的产品，用品牌产生的联动效应促使企业的效益目标达成。而品牌建设的具体落地措施，各个企业的操作形式也各不相同。比如作为缝制设备行业的龙头企业上海和鹰科技，除了常规的品牌建设途径之外，近期正在组织“游日本，赏樱花”的1500人旅行团，用近一周的时间遍游大阪、长崎等地，以一场视觉盛宴，打响2016年新年品牌建设第一役。表面上看，似乎仅仅是“游山玩水”，实际上也起到了拓展合作伙伴、员工的视野，从而增强</p>',`create_time`='1495765661' WHERE `id` = 11 [ RunTime:0.0000s ]
+
+[ 2017-05-31T17:10:13+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_news` ORDER BY create_time desc LIMIT 2,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_news` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:10:13+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:10:13+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:10:13+08:00 ] 127.0.0.1 /qmss/index.php/Admin/News/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:12:13+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:12:14+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:12:14+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-31T17:12:17+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/brand_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:12:30+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/brand_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tp_brand` SET `id`='1',`image`='./Uploads/brand/2017-05-25/59263a7b4e6f0.jpeg',`content`='<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 青木三色创立于1993年，是集开发、生产、销售、品牌运营为一体的大型服装公司，公司自创立始一直秉承“以人为本、快乐分享”的人文理念，经过十六年的发展，公司已由原来的几十人发展至现今逾千人的中型著名女装企业，且凭借优良的品质、准确的市场定位、合理的价格优势，深受广大都市女性消费者的青睐。同时我们本着“先做深度再做广度”的发展观,发挥区域为王的品牌优势,营销网络遍及福建、广东、湖南、湖北、江苏、四川、安徽等省市市场在未来的规划里，集团</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 公司将仍以建立自己独特的企业文化和品牌文化为主题；以“团队、坚持、拼搏、责任”的经营理念引入现代企业管理机制，着力企业、品牌系列化标准建设，并确立及坚定不移地贯彻“人才谋盛世，标准定乾坤”的指导思想，吸纳优秀的青年才俊加入我们的精英团队，打造成管理规范化的时尚都市女装的航空母</p>' WHERE ( id=1 ) [ RunTime:0.0010s ]
+
+[ 2017-05-31T17:12:30+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:12:31+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:12:31+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:34:39+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Single/brand_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tp_brand` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:37:31+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Product/product_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:37:34+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Product/product_lists.html?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-31T17:37:34+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Product/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:37:35+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Product/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:37:35+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Product/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:37:38+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Product/product_update?id=9&curpage=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_product` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:37:50+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Product/product_lists.html?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:37:50+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Product/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:37:50+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Product/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:37:50+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Product/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:37:52+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Product/product_lists/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 6,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-31T17:37:55+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Product/product_update?id=3&curpage=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_product_cate` WHERE `pid` = 5  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tp_product` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:41:05+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Product/product_lists.html?p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_product_cate` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_product_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_product` ORDER BY create_time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-31T17:41:05+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Product/resources/images/icons/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T17:41:05+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Product/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T17:41:05+08:00 ] 127.0.0.1 /qmss/index.php/Admin/Product/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
